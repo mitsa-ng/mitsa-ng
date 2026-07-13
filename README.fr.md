@@ -151,7 +151,7 @@
 <div align="center">
 <br/>
 
-[![Email](https://img.shields.io/badge/Email-catchatapp6%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:catchatapp6@gmail.com)
+[![Email](https://img.shields.io/badge/Email-xingencai060%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xingencai060@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)
 [![LeetCode](https://img.shields.io/badge/LeetCode-1,599_solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VBHZZEqrGX/)
 
