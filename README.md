@@ -5,6 +5,8 @@
 
 <div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=210&section=header&text=Nati&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Full-stack%20%C2%B7%20On-device%20AI%20%C2%B7%20Multiplayer%20Games&descSize=16&descAlignY=52" alt="banner" />
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati+%F0%9F%91%8B;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
 
 <img src="https://komarev.com/ghpvc/?username=mitsa-ng&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
@@ -15,31 +17,15 @@
 
 <br/>
 
-## `~$ whoami`
+## 👋 關於我
 
-```typescript
-const nati = {
-  focus: ["全端系統", "裝置端 AI", "多人連線遊戲"],
-
-  stack: {
-    frontend: ["TypeScript", "Next.js", "React", "Vue"],
-    backend:  ["Python", "Node.js", "Rust"],
-    mobile:   ["Flutter", "Kotlin"],
-    ai:       ["whisper.cpp", "llama.cpp", "OCR + LLM pipelines"],
-    infra:    ["Docker", "Cloudflare Workers", "Vercel", "Neon Postgres"],
-  },
-
-  beliefs: [
-    "隱私是功能，不是設定選項",
-    "要上雲之前，先問一句為什麼",
-    "先出貨，再打磨",
-  ],
-} satisfies Developer;
-```
+- 🔭 目前專注於 **全端系統**、**裝置端 AI** 與 **多人連線遊戲**
+- 🔐 相信 **隱私是功能，不是設定選項**——能在裝置端跑的，就不上雲
+- 🚢 信條：**先出貨，再打磨**
 
 <br/>
 
-## `~$ ls ~/projects --featured`
+## 🚀 精選專案
 
 |     | 專案 | 做什麼 | 技術 |
 | :-: | :--- | :----- | :--- |
@@ -51,7 +37,7 @@ const nati = {
 | 📊 | **[OmniBoard](https://github.com/mitsa-ng/OmniBoard)** | 全端看板應用——TypeScript 前端、Rust 後端、完整容器化。→ [live](https://omniboard-app.vercel.app) | `TypeScript` `Rust` `Docker` |
 
 <details>
-<summary><b><code>~$ ls ~/projects --all</code></b> &nbsp;·&nbsp; 實驗室裡還有更多</summary>
+<summary><b>📦 更多實驗</b></summary>
 <br/>
 
 - 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — 跨平台工作流自動化：Web＋原生 Android（Capacitor/Kotlin）＋OAuth 中繼＋Gemini API
@@ -69,27 +55,31 @@ const nati = {
 
 <br/>
 
-## `~$ cat stack.txt`
+## 🛠️ 技術棧
+
+<div align="center">
 
 **語言**
 
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" /> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+<img src="https://skillicons.dev/icons?i=ts,js,py,dart,rust,kotlin&theme=dark" alt="languages" />
 
 **框架與應用**
 
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="Vue" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" /> <img src="https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9" alt="Electron" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" /> <img src="https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor" />
+<img src="https://skillicons.dev/icons?i=nextjs,react,vue,flutter,electron,tailwind,nodejs&theme=dark" alt="frameworks" />
 
-**AI——能在裝置端跑，就在裝置端跑**
+**裝置端 AI 與安全**
 
-<img src="https://img.shields.io/badge/whisper.cpp-4A154B?style=flat-square" alt="whisper.cpp" /> <img src="https://img.shields.io/badge/llama.cpp-8A2BE2?style=flat-square" alt="llama.cpp" /> <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/AES--256--GCM-DC143C?style=flat-square" alt="AES-256-GCM" />
+<img src="https://img.shields.io/badge/whisper.cpp-4A154B?style=for-the-badge" alt="whisper.cpp" /> <img src="https://img.shields.io/badge/llama.cpp-8A2BE2?style=for-the-badge" alt="llama.cpp" /> <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/AES--256--GCM-DC143C?style=for-the-badge" alt="AES-256-GCM" />
 
 **基礎設施與部署**
 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres&theme=dark" alt="infra" />
+
+</div>
 
 <br/>
 
-## `~$ git log --stat`
+## 📊 GitHub 統計
 
 <div align="center">
 
@@ -100,15 +90,13 @@ const nati = {
 
 </div>
 
-<br/>
-
-<div align="center">
-
-`~$ echo "感謝滑到這裡——這個頁面本身也是一個 repo"`
-
 <!-- Add your links here when ready:
 [![X](https://img.shields.io/badge/@handle-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/handle)
 [![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:you@example.com)
 -->
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="footer" />
 
 </div>

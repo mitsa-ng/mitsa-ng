@@ -1,7 +1,7 @@
 <svg width="400" height="165" viewBox="0 0 400 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tl-title">
   <title id="tl-title">Most Used Languages</title>
   <rect width="400" height="165" fill="#0d1117" rx="4.5"/>
-  <text x="25" y="35" font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, monospace" font-size="15" font-weight="600" fill="#58a6ff">~$ top-langs --compact</text>
+  <text x="25" y="35" font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, monospace" font-size="15" font-weight="600" fill="#58a6ff">Top Languages</text>
 
   <!-- stacked bar -->
   <clipPath id="tl-bar"><rect x="25" y="48" width="350" height="8" rx="4"/></clipPath>
