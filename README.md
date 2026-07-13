@@ -97,7 +97,7 @@
 
 **語言**
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,dart,rust,kotlin&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,py,cpp,dart,rust,kotlin&theme=dark" alt="languages" />
 
 **框架與應用**
 
@@ -109,7 +109,7 @@
 
 **基礎設施與部署**
 
-<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres&theme=dark" alt="infra" />
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres,mysql&theme=dark" alt="infra" />
 
 </div>
 
@@ -128,6 +128,20 @@
 
 <br/>
 
+## 🧠 演算法戰績（LeetCode）
+
+- ✅ 累計解題 **1,599**——Easy **813**｜Medium **668**｜Hard **118**
+- 🏆 全站排名 **#5,555**
+- ⚙️ 主力 **C++**（1,385 題），SQL 也刷了 **105** 題
+
+<div align="center">
+
+<a href="https://leetcode.com/u/VBHZZEqrGX/"><img width="500" src="https://leetcard.jacoblin.cool/VBHZZEqrGX?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=8" alt="LeetCode stats" /></a>
+
+</div>
+
+<br/>
+
 ## 🤝 開源協作與聯絡
 
 - ✅ 所有 repo 都歡迎 **Issue 與 PR**——發現 bug、有想法或想一起做，直接開，我會回
@@ -139,6 +153,7 @@
 
 [![Email](https://img.shields.io/badge/Email-xingencai060%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xingencai060@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)
+[![LeetCode](https://img.shields.io/badge/LeetCode-1,599_solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VBHZZEqrGX/)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="footer" />
 

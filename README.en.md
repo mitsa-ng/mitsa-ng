@@ -97,7 +97,7 @@
 
 **languages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,dart,rust,kotlin&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,py,cpp,dart,rust,kotlin&theme=dark" alt="languages" />
 
 **frameworks & apps**
 
@@ -109,7 +109,7 @@
 
 **infra & deploy**
 
-<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres&theme=dark" alt="infra" />
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres,mysql&theme=dark" alt="infra" />
 
 </div>
 
@@ -128,6 +128,20 @@
 
 <br/>
 
+## 🧠 Algorithm practice (LeetCode)
+
+- ✅ **1,599 problems solved** — Easy **813** | Medium **668** | Hard **118**
+- 🏆 Global ranking **#5,555**
+- ⚙️ Mostly in **C++** (1,385 problems), plus **105** SQL problems
+
+<div align="center">
+
+<a href="https://leetcode.com/u/VBHZZEqrGX/"><img width="500" src="https://leetcard.jacoblin.cool/VBHZZEqrGX?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=8" alt="LeetCode stats" /></a>
+
+</div>
+
+<br/>
+
 ## 🤝 Open source & contact
 
 - ✅ **Issues and PRs welcome** on every repo — found a bug or have an idea? Open one, I'll respond
@@ -139,6 +153,7 @@
 
 [![Email](https://img.shields.io/badge/Email-catchatapp6%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:catchatapp6@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)
+[![LeetCode](https://img.shields.io/badge/LeetCode-1,599_solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VBHZZEqrGX/)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="footer" />
 
