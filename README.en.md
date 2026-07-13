@@ -19,32 +19,68 @@
 
 ## 👋 About me
 
-- 🔭 Currently focused on **full-stack systems**, **on-device AI** and **multiplayer games**
+- 🔭 Focused on **full-stack systems**, **on-device AI** and **multiplayer games**
 - 🔐 I believe **privacy is a feature, not a setting** — if it can run on-device, it shouldn't need the cloud
-- 🚢 Motto: **ship it, then polish it**
+- 🚢 Motto: **ship it, then polish it** — 18 public repos, 6 with live demos
+- 💬 Happy to talk about: on-device AI, privacy engineering, multiplayer sync, full-stack architecture
+
+## 🧭 What I'm up to
+
+- 🔬 Polishing **pdiary** — getting the local-LLM tone-rewrite pipeline (llama.cpp) ready for daily use
+- 🦀 Going deeper on **Rust back-ends** (OmniBoard) and **distributed state sync** (mcgit, block-puzzle)
+- 🌱 Ongoing research: **productionising on-device AI** — quantisation, Metal acceleration, privacy-first architecture
 
 <br/>
 
 ## 🚀 Featured projects
 
-|     | project | what it does | stack |
-| :-: | :------ | :----------- | :---- |
-| 🔐 | **[pdiary](https://github.com/mitsa-ng/pdiary)** | Privacy-first AI voice diary — speak, on-device Whisper transcribes, a local LLM rewrites the tone, AES-256-GCM encrypts at rest. **Nothing ever leaves the device.** | `Flutter` `whisper.cpp` `llama.cpp` |
-| ⛏️ | **[mcgit](https://github.com/mitsa-ng/mcgit)** | `git pull` / `git push` — but for Minecraft worlds. A distributed lock guarantees one host at a time; version history lives in Postgres. | `Python` `Neon Postgres` |
-| 🧩 | **[block-puzzle](https://github.com/mitsa-ng/block-puzzle)** | Multiplayer block-puzzle PWA with match replays — rooms run on Cloudflare Durable Objects, playable offline. | `JavaScript` `Cloudflare Workers` `PWA` |
-| ✍️ | **[Project-Eat](https://github.com/mitsa-ng/Project-Eat)** | Essay Annotation Tool — camera/scan input → OCR → hybrid NLP + LLM pipeline that marks English essays automatically. | `Python` `OCR` `LLM` |
-| 🖥️ | **[website](https://github.com/mitsa-ng/website)** | Not just a personal site — a three-tier system: Next.js public site + Electron admin console + background render service. | `Next.js` `Electron` `TypeScript` |
-| 📊 | **[OmniBoard](https://github.com/mitsa-ng/OmniBoard)** | Full-stack board app — TypeScript front-end, Rust back-end, fully containerised. → [live](https://omniboard-app.vercel.app) | `TypeScript` `Rust` `Docker` |
+### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary) | Privacy-first AI voice diary
+
+`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` — iOS / Android / macOS
+
+> Just speak — on-device Whisper transcribes, a local LLM rewrites the tone, and entries are encrypted before they touch disk.
+> **Nothing ever leaves your device.**
+
+### ⛏️ [mcgit](https://github.com/mitsa-ng/mcgit) | Version control for Minecraft worlds
+
+`Python` `Neon Postgres` `distributed lock`
+
+> The `git pull` / `git push` experience, applied to Minecraft server saves —
+> a distributed lock guarantees one host at a time, version history lives in Postgres, and saves never clobber each other.
+
+### 🧩 [block-puzzle](https://github.com/mitsa-ng/block-puzzle) | Multiplayer block-puzzle PWA
+
+`JavaScript` `Cloudflare Durable Objects` `PWA`
+
+> Room service runs on Cloudflare Durable Objects — multiplayer matches, replays, playable offline.
+
+### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | AI essay marking
+
+`Python` `OCR` `LLM`
+
+> Camera/scan input → OCR → hybrid NLP + LLM pipeline that marks English essays automatically — an ed-tech tool that saves teachers time.
+
+### 🖥️ [website](https://github.com/mitsa-ng/website) | Three-tier personal site system
+
+`Next.js` `Electron` `TypeScript`
+
+> Not just a personal site: Next.js public site + Electron admin console + background render service — a complete content system.
+
+### 📊 [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | TypeScript + Rust full-stack board · [🔗 live](https://omniboard-app.vercel.app)
+
+`TypeScript` `Rust` `Docker`
+
+> TypeScript front-end, Rust back-end, fully containerised — one docker-compose to bring it all up.
 
 <details>
-<summary><b>📦 more experiments in the lab</b></summary>
+<summary><b>📦 more experiments in the lab (click to expand)</b></summary>
 <br/>
 
 - 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — cross-platform workflow automation: Web + native Android (Capacitor/Kotlin) + OAuth relay + Gemini API
 - 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — 6-player remote-sync Taiwanese mahjong: host-authoritative state, full rules engine (chi/pong/kang/hu)
 - ♟️ **[chess](https://github.com/mitsa-ng/chess)** — chess in the browser → [live](https://mitchess.vercel.app)
 - 🅿️ **[parkwhere](https://github.com/mitsa-ng/parkwhere)** — parking-spot finder built with Next.js → [live](https://parkhuh.vercel.app)
-- 🎛️ **[ichisys](https://github.com/mitsa-ng/ichisys)** — Vue + Python full-stack app, ships as Web *and* Electron desktop, Docker dev/prod parity → [live](https://ichisys.vercel.app)
+- 🎛️ **[ichisys](https://github.com/mitsa-ng/ichisys)** — Vue + Python full-stack app, ships as Web *and* Electron desktop → [live](https://ichisys.vercel.app)
 - 🎵 **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)** — maimai player-card generator, deployed on Hugging Face Spaces (Gradio)
 - 📺 **[yt-TV](https://github.com/mitsa-ng/yt-TV)** — YouTube TV (Leanback) as an Electron desktop client
 - 📝 **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)** — lightweight Markdown editor for Windows
@@ -90,12 +126,19 @@
 
 </div>
 
-<!-- Add your links here when ready:
-[![X](https://img.shields.io/badge/@handle-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/handle)
-[![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:you@example.com)
--->
+<br/>
+
+## 🤝 Open source & contact
+
+- ✅ **Issues and PRs welcome** on every repo — found a bug or have an idea? Open one, I'll respond
+- 🧑‍💻 Especially keen to collaborate on **pdiary** (on-device AI) and **mcgit** (distributed tooling)
+- 💼 Open to **job opportunities and freelance work** — remote-friendly
 
 <div align="center">
+<br/>
+
+[![Email](https://img.shields.io/badge/Email-catchatapp6%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:catchatapp6@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="footer" />
 
