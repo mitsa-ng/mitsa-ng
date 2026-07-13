@@ -94,7 +94,7 @@ const nati = {
 <div align="center">
 
 <img height="165" src="https://streak-stats.demolab.com?user=mitsa-ng&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="GitHub streak" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mitsa-ng&layout=compact&langs_count=8&hide=html,css,shell&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Top languages" />
+<img height="165" src="./assets/top-langs.svg" alt="Top languages" />
 
 <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitsa-ng&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Contribution graph" />
 

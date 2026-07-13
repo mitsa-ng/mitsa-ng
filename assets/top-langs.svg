@@ -1,0 +1,31 @@
+<svg width="400" height="165" viewBox="0 0 400 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tl-title">
+  <title id="tl-title">Most Used Languages</title>
+  <rect width="400" height="165" fill="#0d1117" rx="4.5"/>
+  <text x="25" y="35" font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, monospace" font-size="15" font-weight="600" fill="#58a6ff">~$ top-langs --compact</text>
+
+  <!-- stacked bar -->
+  <clipPath id="tl-bar"><rect x="25" y="48" width="350" height="8" rx="4"/></clipPath>
+  <g clip-path="url(#tl-bar)">
+    <rect x="25"    y="48" width="94.6" height="8" fill="#f1e05a"/>
+    <rect x="119.6" y="48" width="82.6" height="8" fill="#3178c6"/>
+    <rect x="202.2" y="48" width="75.5" height="8" fill="#3572A5"/>
+    <rect x="277.7" y="48" width="62.5" height="8" fill="#00B4AB"/>
+    <rect x="340.2" y="48" width="26.8" height="8" fill="#41b883"/>
+    <rect x="367.0" y="48" width="4.5"  height="8" fill="#dea584"/>
+    <rect x="371.5" y="48" width="1.5"  height="8" fill="#A97BFF"/>
+    <rect x="373.0" y="48" width="0.7"  height="8" fill="#701516"/>
+    <rect x="373.7" y="48" width="1.3"  height="8" fill="#484f58"/>
+  </g>
+
+  <!-- legend -->
+  <g font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, monospace" font-size="11.5" fill="#c9d1d9">
+    <circle cx="30" cy="78"  r="5" fill="#f1e05a"/><text x="41" y="82">JavaScript 27.0%</text>
+    <circle cx="210" cy="78"  r="5" fill="#3178c6"/><text x="221" y="82">TypeScript 23.6%</text>
+    <circle cx="30" cy="99"  r="5" fill="#3572A5"/><text x="41" y="103">Python 21.6%</text>
+    <circle cx="210" cy="99"  r="5" fill="#00B4AB"/><text x="221" y="103">Dart 17.9%</text>
+    <circle cx="30" cy="120" r="5" fill="#41b883"/><text x="41" y="124">Vue 7.7%</text>
+    <circle cx="210" cy="120" r="5" fill="#dea584"/><text x="221" y="124">Rust 1.3%</text>
+    <circle cx="30" cy="141" r="5" fill="#A97BFF"/><text x="41" y="145">Kotlin 0.4%</text>
+    <circle cx="210" cy="141" r="5" fill="#701516"/><text x="221" y="145">Ruby 0.2%</text>
+  </g>
+</svg>
