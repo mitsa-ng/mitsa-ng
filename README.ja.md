@@ -9,7 +9,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=mitsa-ng&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
 
-[English](./README.md) · [繁體中文](./README.zh-TW.md) · **日本語** · [Français](./README.fr.md)
+[繁體中文](./README.md) · [English](./README.en.md) · **日本語** · [Français](./README.fr.md)
 
 </div>
 
