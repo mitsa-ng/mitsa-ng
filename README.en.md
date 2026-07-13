@@ -130,9 +130,15 @@
 
 ## 🧠 Algorithm practice (LeetCode)
 
-- ✅ **1,599 problems solved** — Easy **813** | Medium **668** | Hard **118**
-- 🏆 Global ranking **#5,555**
-- ⚙️ Mostly in **C++** (1,385 problems), plus **105** SQL problems
+- ✅ **1,599 problems solved** — Easy **813** | Medium **668** | Hard **118**, global ranking **#5,555**
+
+**🗂️ Topics covered** (by problems solved)
+
+`Array ×786` `String ×406` `Hash Table ×311` `Math ×280` `Sorting ×186` `Dynamic Programming ×145` `DFS ×135` `Simulation ×134` `Greedy ×128` `Matrix ×121` `Tree ×117` `Two Pointers ×116` `Binary Tree ×105` `Bit Manipulation ×99` `Database/SQL ×94` `BFS ×92`
+
+**💻 Languages used** (by problems solved)
+
+`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
 <div align="center">
 

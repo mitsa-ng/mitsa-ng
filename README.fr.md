@@ -130,9 +130,15 @@
 
 ## 🧠 Algorithmique (LeetCode)
 
-- ✅ **1 599 problèmes résolus** — Easy **813** | Medium **668** | Hard **118**
-- 🏆 Classement mondial **#5 555**
-- ⚙️ Principalement en **C++** (1 385 problèmes), plus **105** problèmes SQL
+- ✅ **1 599 problèmes résolus** — Easy **813** | Medium **668** | Hard **118**, classement mondial **#5 555**
+
+**🗂️ Thèmes couverts** (par nombre de problèmes)
+
+`Tableaux ×786` `Chaînes ×406` `Tables de hachage ×311` `Maths ×280` `Tri ×186` `Programmation dynamique ×145` `DFS ×135` `Simulation ×134` `Glouton ×128` `Matrices ×121` `Arbres ×117` `Deux pointeurs ×116` `Arbres binaires ×105` `Manipulation de bits ×99` `Base de données SQL ×94` `BFS ×92`
+
+**💻 Langages utilisés** (par nombre de problèmes)
+
+`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
 <div align="center">
 
