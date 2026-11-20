@@ -21,18 +21,25 @@
 
 - 🔭 Focalisé sur les **systèmes full-stack**, l'**IA embarquée** et les **jeux multijoueurs**
 - 🔐 **La vie privée est une fonctionnalité, pas un réglage** — si ça peut tourner sur l'appareil, pas besoin du cloud
-- 🚢 Devise : **livrer d'abord, peaufiner ensuite** — 18 dépôts publics, dont 6 avec démo en ligne
+- 🚢 Devise : **livrer d'abord, peaufiner ensuite**. 28 dépôts publics, dont 5 avec démo en ligne
 - 💬 Sujets favoris : IA embarquée, ingénierie de la confidentialité, synchro multijoueur, architecture full-stack
 
 ## 🧭 En ce moment
 
-- 🔬 Finitions de **pdiary** — rendre le pipeline de réécriture par LLM local (llama.cpp) utilisable au quotidien
+- 🏄 Développement de **surf** : un navigateur écrit en Rust à partir de zéro
+- ✍️ Réécriture de **Project-Eat** en **Rust** : correction de rédactions par OCR + LLM
 - 🦀 Approfondissement des **back-ends Rust** (OmniBoard) et de la **synchro d'état distribuée** (mcgit, block-puzzle)
-- 🌱 Recherche continue : **industrialiser l'IA embarquée** — quantification, accélération Metal, architecture privacy-first
+- 🌱 Recherche continue : **industrialiser l'IA embarquée** dans pdiary (quantification, accélération Metal, architecture privacy-first)
 
 <br/>
 
 ## 🚀 Projets phares
+
+### 🏄 [surf](https://github.com/mitsa-ng/surf) | Un navigateur écrit en Rust à partir de zéro
+
+`Rust`
+
+> Écrire son propre navigateur depuis zéro. Un projet au long cours, qui avance.
 
 ### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary) | Journal vocal IA axé confidentialité
 
@@ -56,9 +63,9 @@
 
 ### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | Correction de rédactions par IA
 
-`Python` `OCR` `LLM`
+`Rust` `OCR` `LLM`
 
-> Entrée caméra/scan → OCR → pipeline hybride NLP + LLM qui corrige automatiquement des rédactions en anglais — un outil ed-tech qui rend du temps aux enseignants.
+> Entrée caméra/scan → OCR → pipeline LLM qui corrige automatiquement des rédactions en anglais. Un outil ed-tech qui rend du temps aux enseignants.
 
 ### 🖥️ [website](https://github.com/mitsa-ng/website) | Système de site perso à trois niveaux
 
@@ -76,6 +83,10 @@
 <summary><b>📦 encore plus d'expériences au labo (cliquer pour déplier)</b></summary>
 <br/>
 
+- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)** : éditeur de pixel art et d'animation image par image → [live](https://pixmitsa.vercel.app)
+- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)** : planificateur d'installation logicielle multiplateforme et installateur desktop
+- 📮 **[postflow](https://github.com/mitsa-ng/postflow)** : PostFlow, assistant de mise en forme automatique pour posts réseaux sociaux
+- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)** : resource pack public pour le serveur Minecraft SnowFox (CustomMerged-RP)
 - 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — automatisation de flux multiplateforme : Web + Android natif (Capacitor/Kotlin) + relais OAuth + API Gemini
 - 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — mahjong taïwanais à 6 joueurs en synchro distante : état géré par l'hôte, moteur de règles complet (chi/pong/kang/hu)
 - ♟️ **[chess](https://github.com/mitsa-ng/chess)** — des échecs dans le navigateur → [live](https://mitchess.vercel.app)
@@ -130,7 +141,7 @@
 
 ## 🧠 Algorithmique (LeetCode)
 
-- ✅ **1 599 problèmes résolus** — Easy **813** | Medium **668** | Hard **118**, classement mondial **#5 555**
+- ✅ **1 599 problèmes résolus** : Easy **812** | Medium **669** | Hard **118**, classement mondial **#6 543**
 
 **🗂️ Thèmes couverts** (par nombre de problèmes)
 
@@ -151,7 +162,7 @@
 ## 🤝 Open source & contact
 
 - ✅ **Issues et PR bienvenues** sur tous les dépôts — un bug, une idée ? Ouvrez, je réponds
-- 🧑‍💻 Particulièrement partant pour collaborer sur **pdiary** (IA embarquée) et **mcgit** (outillage distribué)
+- 🧑‍💻 Particulièrement partant pour collaborer sur **surf** (navigateur Rust) et **pdiary** (IA embarquée)
 - 💼 Ouvert aux **opportunités professionnelles et missions freelance** — télétravail bienvenu
 
 <div align="center">

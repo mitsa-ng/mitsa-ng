@@ -21,18 +21,25 @@
 
 - 🔭 專注於 **全端系統**、**裝置端 AI** 與 **多人連線遊戲**
 - 🔐 相信 **隱私是功能，不是設定選項**——能在裝置端跑的，就不上雲
-- 🚢 信條：**先出貨，再打磨**——18 個公開 repo，6 個有 live demo
+- 🚢 信條：**先出貨，再打磨**。目前 28 個公開 repo，5 個有 live demo
 - 💬 樂聊：裝置端 AI、隱私工程、多人遊戲同步、全端架構
 
 ## 🧭 目前進行中
 
-- 🔬 打磨 **pdiary**——把本地 LLM 語氣重寫管線（llama.cpp）做到能日常使用
+- 🏄 打造 **surf**：用 Rust 從零寫一個瀏覽器
+- ✍️ 以 **Rust** 重寫 **Project-Eat**：OCR＋LLM 自動批改英文作文
 - 🦀 深挖 **Rust 後端**（OmniBoard）與 **分散式狀態同步**（mcgit、block-puzzle）
-- 🌱 持續研究 **裝置端 AI 工程化**：模型量化、Metal 加速、隱私優先架構
+- 🌱 持續研究 **裝置端 AI 工程化**（pdiary）：模型量化、Metal 加速、隱私優先架構
 
 <br/>
 
 ## 🚀 精選專案
+
+### 🏄 [surf](https://github.com/mitsa-ng/surf)｜用 Rust 從零打造的瀏覽器
+
+`Rust`
+
+> 正在從零開始寫一個自己的瀏覽器，長期工程，持續推進中。
 
 ### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary)｜隱私優先的 AI 語音日記
 
@@ -56,9 +63,9 @@
 
 ### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat)｜AI 英文作文批改
 
-`Python` `OCR` `LLM`
+`Rust` `OCR` `LLM`
 
-> 相機／掃描輸入 → OCR 識別 → NLP＋LLM 混合管線，自動批改英文作文——給老師省時間的教育工具。
+> 相機／掃描輸入 → OCR 識別 → LLM 自動批改，給老師省時間的教育工具。
 
 ### 🖥️ [website](https://github.com/mitsa-ng/website)｜三層個人網站系統
 
@@ -76,6 +83,10 @@
 <summary><b>📦 更多實驗（點開看全部）</b></summary>
 <br/>
 
+- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**：像素畫與逐格動畫編輯器 → [live](https://pixmitsa.vercel.app)
+- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)**：跨平台軟體安裝規劃器與桌面安裝器
+- 📮 **[postflow](https://github.com/mitsa-ng/postflow)**：PostFlow 秒發助手，跨平台社群內容自動化美化器
+- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**：雪狐保育區 Minecraft 伺服器資源包（CustomMerged-RP）公開下載
 - 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — 跨平台工作流自動化：Web＋原生 Android（Capacitor/Kotlin）＋OAuth 中繼＋Gemini API
 - 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — 六人遠端連線台灣麻將：房主權威狀態同步，完整規則引擎（吃碰槓胡）
 - ♟️ **[chess](https://github.com/mitsa-ng/chess)** — 瀏覽器就能玩的西洋棋 → [live](https://mitchess.vercel.app)
@@ -130,7 +141,7 @@
 
 ## 🧠 演算法戰績（LeetCode）
 
-- ✅ 累計解題 **1,599**——Easy **813**｜Medium **668**｜Hard **118**，全站排名 **#5,555**
+- ✅ 累計解題 **1,599**：Easy **812**｜Medium **669**｜Hard **118**，全站排名 **#6,543**
 
 **🗂️ 主題分佈**（依題數）
 
@@ -151,7 +162,7 @@
 ## 🤝 開源協作與聯絡
 
 - ✅ 所有 repo 都歡迎 **Issue 與 PR**——發現 bug、有想法或想一起做，直接開，我會回
-- 🧑‍💻 特別歡迎在 **pdiary**（裝置端 AI）與 **mcgit**（分散式工具）上交流
+- 🧑‍💻 特別歡迎在 **surf**（Rust 瀏覽器）與 **pdiary**（裝置端 AI）上交流
 - 💼 開放 **工作機會與合作洽談**，遠端友善
 
 <div align="center">

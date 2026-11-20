@@ -21,18 +21,25 @@
 
 - 🔭 関心領域は **フルスタックシステム**、**オンデバイス AI**、**マルチプレイヤーゲーム**
 - 🔐 **プライバシーは設定項目ではなく、機能そのもの**——端末で動くものは、クラウドに送らない
-- 🚢 モットー：**まず出荷、それから磨く**——公開リポジトリ 18 件、うち 6 件はライブデモつき
+- 🚢 モットー：**まず出荷、それから磨く**。公開リポジトリ 28 件、うち 5 件はライブデモつき
 - 💬 好きな話題：オンデバイス AI、プライバシーエンジニアリング、マルチプレイヤー同期、フルスタック設計
 
 ## 🧭 いま取り組んでいること
 
-- 🔬 **pdiary** の仕上げ——ローカル LLM による文体書き換えパイプライン（llama.cpp）を日常使いレベルへ
+- 🏄 **surf** を開発中：Rust でゼロから書くブラウザ
+- ✍️ **Project-Eat** を **Rust** で書き直し：OCR＋LLM による英作文自動添削
 - 🦀 **Rust バックエンド**（OmniBoard）と**分散状態同期**（mcgit、block-puzzle）を深掘り中
-- 🌱 継続テーマ：**オンデバイス AI の実用化**——量子化、Metal アクセラレーション、プライバシー最優先の設計
+- 🌱 継続テーマ：**オンデバイス AI の実用化**（pdiary）: 量子化、Metal アクセラレーション、プライバシー最優先の設計
 
 <br/>
 
 ## 🚀 注目プロジェクト
+
+### 🏄 [surf](https://github.com/mitsa-ng/surf)｜Rust でゼロから作るブラウザ
+
+`Rust`
+
+> 自分のブラウザをゼロから書く、長期続けているプロジェクト。
 
 ### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary)｜プライバシー最優先の AI 音声日記
 
@@ -56,9 +63,9 @@
 
 ### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat)｜AI 英作文添削
 
-`Python` `OCR` `LLM`
+`Rust` `OCR` `LLM`
 
-> カメラ／スキャン入力 → OCR → NLP と LLM のハイブリッドパイプラインで自動添削——先生の時間を取り戻す教育ツール。
+> カメラ／スキャン入力 → OCR → LLM で英作文を自動添削。先生の時間を取り戻す教育ツール。
 
 ### 🖥️ [website](https://github.com/mitsa-ng/website)｜三層構成の個人サイトシステム
 
@@ -76,6 +83,10 @@
 <summary><b>📦 ラボの実験いろいろ（クリックで展開）</b></summary>
 <br/>
 
+- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**：ドット絵・コマドリアニメ編集ツール → [live](https://pixmitsa.vercel.app)
+- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)**：クロスプラットフォームなソフトウェアセットアッププランナー＆デスクトップインストーラー
+- 📮 **[postflow](https://github.com/mitsa-ng/postflow)**：PostFlow 秒発アシスタント。SNS 投稿を自動で整形
+- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**：雪狐保育区 Minecraft サーバーのリソースパック（CustomMerged-RP）公開配布
 - 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — クロスプラットフォーム自動化：Web＋ネイティブ Android（Capacitor/Kotlin）＋OAuth リレー＋Gemini API
 - 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — 6 人リモート同期の台湾麻雀：ホスト権威の状態同期、完全なルールエンジン（チー／ポン／カン／和了）
 - ♟️ **[chess](https://github.com/mitsa-ng/chess)** — ブラウザで遊べるチェス → [live](https://mitchess.vercel.app)
@@ -130,7 +141,7 @@
 
 ## 🧠 アルゴリズム記録（LeetCode）
 
-- ✅ 累計 **1,599 問**——Easy **813**｜Medium **668**｜Hard **118**、グローバルランキング **#5,555**
+- ✅ 累計 **1,599 問**：Easy **812**｜Medium **669**｜Hard **118**、グローバルランキング **#6,543**
 
 **🗂️ 分野別の内訳**（解答数）
 
@@ -151,7 +162,7 @@
 ## 🤝 オープンソース & コンタクト
 
 - ✅ どのリポジトリも **Issue / PR 歓迎**——バグ報告もアイデアも、気軽にどうぞ。必ず目を通します
-- 🧑‍💻 特に **pdiary**（オンデバイス AI）と **mcgit**（分散ツール）でのコラボ大歓迎
+- 🧑‍💻 特に **surf**（Rust ブラウザ）と **pdiary**（オンデバイス AI）でのコラボ大歓迎
 - 💼 **お仕事のご相談・コラボのお誘い**も受け付けています——リモート歓迎
 
 <div align="center">

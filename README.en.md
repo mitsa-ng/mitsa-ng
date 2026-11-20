@@ -21,18 +21,25 @@
 
 - 🔭 Focused on **full-stack systems**, **on-device AI** and **multiplayer games**
 - 🔐 I believe **privacy is a feature, not a setting** — if it can run on-device, it shouldn't need the cloud
-- 🚢 Motto: **ship it, then polish it** — 18 public repos, 6 with live demos
+- 🚢 Motto: **ship it, then polish it**. 28 public repos so far, 5 with live demos
 - 💬 Happy to talk about: on-device AI, privacy engineering, multiplayer sync, full-stack architecture
 
 ## 🧭 What I'm up to
 
-- 🔬 Polishing **pdiary** — getting the local-LLM tone-rewrite pipeline (llama.cpp) ready for daily use
+- 🏄 Building **surf**: a browser written from scratch in Rust
+- ✍️ Rewriting **Project-Eat** in **Rust**: OCR + LLM essay marking
 - 🦀 Going deeper on **Rust back-ends** (OmniBoard) and **distributed state sync** (mcgit, block-puzzle)
-- 🌱 Ongoing research: **productionising on-device AI** — quantisation, Metal acceleration, privacy-first architecture
+- 🌱 Ongoing research: **productionising on-device AI** in pdiary (quantisation, Metal acceleration, privacy-first architecture)
 
 <br/>
 
 ## 🚀 Featured projects
+
+### 🏄 [surf](https://github.com/mitsa-ng/surf) | A browser built from scratch in Rust
+
+`Rust`
+
+> Writing my own browser from zero. A long-running project, actively moving forward.
 
 ### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary) | Privacy-first AI voice diary
 
@@ -56,9 +63,9 @@
 
 ### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | AI essay marking
 
-`Python` `OCR` `LLM`
+`Rust` `OCR` `LLM`
 
-> Camera/scan input → OCR → hybrid NLP + LLM pipeline that marks English essays automatically — an ed-tech tool that saves teachers time.
+> Camera/scan input → OCR → LLM pipeline that marks English essays automatically. An ed-tech tool that saves teachers time.
 
 ### 🖥️ [website](https://github.com/mitsa-ng/website) | Three-tier personal site system
 
@@ -76,6 +83,10 @@
 <summary><b>📦 more experiments in the lab (click to expand)</b></summary>
 <br/>
 
+- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**: pixel art & frame-by-frame animation editor → [live](https://pixmitsa.vercel.app)
+- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)**: curated cross-platform software setup planner and desktop installer
+- 📮 **[postflow](https://github.com/mitsa-ng/postflow)**: PostFlow, a cross-platform auto-polisher for social posts
+- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**: public resource pack for the SnowFox Minecraft server (CustomMerged-RP)
 - 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — cross-platform workflow automation: Web + native Android (Capacitor/Kotlin) + OAuth relay + Gemini API
 - 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — 6-player remote-sync Taiwanese mahjong: host-authoritative state, full rules engine (chi/pong/kang/hu)
 - ♟️ **[chess](https://github.com/mitsa-ng/chess)** — chess in the browser → [live](https://mitchess.vercel.app)
@@ -130,7 +141,7 @@
 
 ## 🧠 Algorithm practice (LeetCode)
 
-- ✅ **1,599 problems solved** — Easy **813** | Medium **668** | Hard **118**, global ranking **#5,555**
+- ✅ **1,599 problems solved**: Easy **812** | Medium **669** | Hard **118**, global ranking **#6,543**
 
 **🗂️ Topics covered** (by problems solved)
 
@@ -151,7 +162,7 @@
 ## 🤝 Open source & contact
 
 - ✅ **Issues and PRs welcome** on every repo — found a bug or have an idea? Open one, I'll respond
-- 🧑‍💻 Especially keen to collaborate on **pdiary** (on-device AI) and **mcgit** (distributed tooling)
+- 🧑‍💻 Especially keen to collaborate on **surf** (Rust browser) and **pdiary** (on-device AI)
 - 💼 Open to **job opportunities and freelance work** — remote-friendly
 
 <div align="center">
