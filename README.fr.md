@@ -19,81 +19,31 @@
 
 ## À propos
 
-- Focalisé sur les **systèmes full-stack**, l'**IA embarquée** et les **jeux multijoueurs**
-- En ce moment : écrire un navigateur en Rust à partir de zéro (**surf**) et réécrire Project-Eat en Rust ; le reste du temps, back-ends Rust (OmniBoard) et synchro d'état distribuée (mcgit, block-puzzle)
-- **La vie privée est une fonctionnalité, pas un réglage** : si ça peut tourner sur l'appareil, pas besoin du cloud
-- Devise : **livrer d'abord, peaufiner ensuite**. 28 dépôts publics, dont 5 avec démo en ligne
-- Recherche continue : industrialisation de l'IA embarquée dans pdiary (quantification, accélération Metal, architecture privacy-first)
-- Sujets favoris : IA embarquée, ingénierie de la confidentialité, synchro multijoueur, architecture full-stack
+- Focalisé sur les **systèmes full-stack**, l'**IA embarquée** et les **jeux multijoueurs** ; en ce moment : écrire un navigateur en Rust à partir de zéro (**surf**) et réécrire Project-Eat en Rust
+- **La vie privée est une fonctionnalité, pas un réglage** : ce qui peut tourner sur l'appareil reste sur l'appareil (pdiary)
+- Devise : **livrer d'abord, peaufiner ensuite**. 28 dépôts publics, dont 5 avec démo en ligne ; **1 599** problèmes LeetCode résolus (#6 543)
+
+<br/>
+
+## Contributions récentes
+
+- **vLLM Metal** [#1379](https://github.com/vllm-project/vllm-metal/pull/1379) : suppression de l'allocation KV dupliquée sur le chemin miroir (open)
+- **KytyPS5** [#2402](https://github.com/KytyPS5/KytyPS5/pull/2402)/[#2403](https://github.com/KytyPS5/KytyPS5/pull/2403) : compatibilité MoltenVK et liaisons d'accélération pour les shaders (open)
+- **vLLM** [#68302](https://github.com/vllm-project/vllm/pull/68302) : correction du marquage de progression des /v1/responses en arrière-plan (open)
+- **horizon** [#7123](https://github.com/horizon-rust/horizon/pull/7123) : correction de la navigation des agents bloquée sur les chemins partiels (merged)
+- **Wiicompiled** [#414](https://github.com/patchzyy/Wiicompiled/pull/414) : sauvegarde des mappings de boutons par port (merged)
+- Une dizaine de correctifs de configuration et de docs pour **google-research/harness2**
 
 <br/>
 
 ## Projets phares
 
-### [surf](https://github.com/mitsa-ng/surf) | Un navigateur écrit en Rust à partir de zéro
+- **[surf](https://github.com/mitsa-ng/surf)** : un navigateur écrit en Rust à partir de zéro `Rust`
+- **[pdiary](https://github.com/mitsa-ng/pdiary)** : journal vocal IA axé confidentialité, de la transcription au chiffrement, entièrement sur l'appareil `Flutter` `llama.cpp`
+- **[mcgit](https://github.com/mitsa-ng/mcgit)** : contrôle de version pour les sauvegardes de serveurs Minecraft `Python` `Postgres`
+- **[OmniBoard](https://github.com/mitsa-ng/OmniBoard)** : tableau full-stack TypeScript + Rust · [live](https://omniboard-app.vercel.app)
 
-`Rust`
-
-> Écrire son propre navigateur depuis zéro. Un projet au long cours, qui avance.
-
-### [pdiary](https://github.com/mitsa-ng/pdiary) | Journal vocal IA axé confidentialité
-
-`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` · iOS / Android / macOS
-
-> Parlez, c'est tout : Whisper transcrit sur l'appareil, un LLM local réécrit le ton, et chaque entrée est chiffrée avant d'être stockée.
-> **Rien ne quitte jamais l'appareil.**
-
-### [mcgit](https://github.com/mitsa-ng/mcgit) | Contrôle de version pour mondes Minecraft
-
-`Python` `Neon Postgres` `verrou distribué`
-
-> L'expérience `git pull` / `git push`, appliquée aux sauvegardes de serveurs Minecraft :
-> un verrou distribué garantit un seul hôte à la fois, l'historique vit dans Postgres, fini les sauvegardes écrasées.
-
-### [block-puzzle](https://github.com/mitsa-ng/block-puzzle) | PWA de puzzle multijoueur
-
-`JavaScript` `Cloudflare Durable Objects` `PWA`
-
-> Le service de salons tourne sur Cloudflare Durable Objects : parties multijoueurs, replays, jouable hors ligne.
-
-### [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | Correction de rédactions par IA
-
-`Rust` `OCR` `LLM`
-
-> Entrée caméra/scan → OCR → pipeline LLM qui corrige automatiquement des rédactions en anglais. Un outil ed-tech qui rend du temps aux enseignants.
-
-### [website](https://github.com/mitsa-ng/website) | Système de site perso à trois niveaux
-
-`Next.js` `Electron` `TypeScript`
-
-> Site public Next.js + console d'admin Electron + service de rendu en arrière-plan : trois composants qui forment un système de contenu.
-
-### [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | Tableau full-stack TypeScript + Rust · [live](https://omniboard-app.vercel.app)
-
-`TypeScript` `Rust` `Docker`
-
-> Front en TypeScript, back en Rust, entièrement conteneurisé : un seul docker-compose pour tout lancer.
-
-<details>
-<summary><b>encore plus d'expériences au labo (cliquer pour déplier)</b></summary>
-<br/>
-
-- **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)** : éditeur de pixel art et d'animation image par image → [live](https://pixmitsa.vercel.app)
-- **[pakitup](https://github.com/mitsa-ng/pakitup)** : planificateur d'installation logicielle multiplateforme et installateur desktop
-- **[postflow](https://github.com/mitsa-ng/postflow)** : PostFlow, assistant de mise en forme automatique pour posts réseaux sociaux
-- **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)** : resource pack public pour le serveur Minecraft SnowFox (CustomMerged-RP)
-- **[omniflow](https://github.com/mitsa-ng/omniflow)** : automatisation de flux multiplateforme : Web + Android natif (Capacitor/Kotlin) + relais OAuth + API Gemini
-- **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** : mahjong taïwanais à 6 joueurs en synchro distante : état géré par l'hôte, moteur de règles complet (chi/pong/kang/hu)
-- **[chess](https://github.com/mitsa-ng/chess)** : des échecs dans le navigateur → [live](https://mitchess.vercel.app)
-- **[parkwhere](https://github.com/mitsa-ng/parkwhere)** : chercheur de places de parking construit avec Next.js → [live](https://parkhuh.vercel.app)
-- **[ichisys](https://github.com/mitsa-ng/ichisys)** : appli full-stack Vue + Python, livrée en Web *et* en desktop Electron → [live](https://ichisys.vercel.app)
-- **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)** : générateur de cartes de joueur maimai, déployé sur Hugging Face Spaces (Gradio)
-- **[yt-TV](https://github.com/mitsa-ng/yt-TV)** : YouTube TV (Leanback) en client desktop Electron
-- **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)** : éditeur Markdown léger pour Windows
-- **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)** : archiveur CLI avec ffmpeg embarqué
-- **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)** : wrapper Python autour de robocopy pour la synchro de fichiers
-
-</details>
+Les 24 autres dépôts : [github.com/mitsa-ng?tab=repositories](https://github.com/mitsa-ng/?tab=repositories)
 
 <br/>
 
@@ -105,28 +55,19 @@
 
 <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,dart,rust,kotlin&theme=dark" alt="languages" />
 
-**frameworks & applications**
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,vue,flutter,electron,tailwind,nodejs&theme=dark" alt="frameworks" />
-
 **IA embarquée & sécurité**
 
 <img src="https://img.shields.io/badge/whisper.cpp-4A154B?style=for-the-badge" alt="whisper.cpp" /> <img src="https://img.shields.io/badge/llama.cpp-8A2BE2?style=for-the-badge" alt="llama.cpp" /> <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/AES--256--GCM-DC143C?style=for-the-badge" alt="AES-256-GCM" />
-
-**infra & déploiement**
-
-<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres,mysql&theme=dark" alt="infra" />
 
 </div>
 
 <br/>
 
-## Stats GitHub
+## Activité GitHub
 
 <div align="center">
 
 <img height="165" src="https://streak-stats.demolab.com?user=mitsa-ng&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="GitHub streak" />
-<img height="165" src="./assets/top-langs.svg" alt="Top languages" />
 
 <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitsa-ng&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Contribution graph" />
 
@@ -134,34 +75,12 @@
 
 <br/>
 
-## Algorithmique (LeetCode)
-
-- **1 599 problèmes résolus** : Easy **812** | Medium **669** | Hard **118**, classement mondial **#6 543**
-- Langages utilisés (par nombre de problèmes) : `C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
-
-<details>
-<summary>Thèmes couverts (par nombre de problèmes)</summary>
-
-`Tableaux ×786` `Chaînes ×406` `Tables de hachage ×311` `Maths ×280` `Tri ×186` `Programmation dynamique ×145` `DFS ×135` `Simulation ×134` `Glouton ×128` `Matrices ×121` `Arbres ×117` `Deux pointeurs ×116` `Arbres binaires ×105` `Manipulation de bits ×99` `Base de données SQL ×94` `BFS ×92`
-
-</details>
+## Contact
 
 <div align="center">
 
-<a href="https://leetcode.com/u/VBHZZEqrGX/"><img width="500" src="https://leetcard.jacoblin.cool/VBHZZEqrGX?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=8" alt="LeetCode stats" /></a>
-
-</div>
-
-<br/>
-
-## Open source & contact
-
-- **Issues et PR bienvenues** sur tous les dépôts : un bug, une idée ? Ouvrez, je réponds
-- Particulièrement partant pour collaborer sur **surf** (navigateur Rust) et **pdiary** (IA embarquée)
-- Ouvert aux **opportunités professionnelles et missions freelance** : télétravail bienvenu
-
-<div align="center">
-<br/>
+Issues et PR bienvenues sur tous les dépôts ; ouvert aux opportunités professionnelles et collaborations, télétravail bienvenu.
+<br/><br/>
 
 [![Email](https://img.shields.io/badge/Email-xingencai060%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xingencai060@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)

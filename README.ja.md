@@ -19,81 +19,31 @@
 
 ## わたしについて
 
-- 関心領域は **フルスタックシステム**、**オンデバイス AI**、**マルチプレイヤーゲーム**
-- 今の主力：Rust でゼロからブラウザを書く（**surf**）、Project-Eat を Rust で書き直す。その他の時間は Rust バックエンド（OmniBoard）と分散状態同期（mcgit、block-puzzle）を深掘り
-- **プライバシーは設定項目ではなく、機能そのもの**：端末で動くものは、クラウドに送らない
-- モットー：**まず出荷、それから磨く**。公開リポジトリ 28 件、うち 5 件はライブデモつき
-- 継続テーマ：オンデバイス AI の実用化（pdiary）：量子化、Metal アクセラレーション、プライバシー最優先の設計
-- 好きな話題：オンデバイス AI、プライバシーエンジニアリング、マルチプレイヤー同期、フルスタック設計
+- 関心領域は **フルスタックシステム**、**オンデバイス AI**、**マルチプレイヤーゲーム**。今の主力：Rust でゼロからブラウザを書く（**surf**）、Project-Eat の Rust 書き直し
+- **プライバシーは設定項目ではなく、機能そのもの**：端末で動くものは、クラウドに送らない（pdiary）
+- モットー：**まず出荷、それから磨く**。公開リポジトリ 28 件、うち 5 件はライブデモつき。LeetCode は **1,599 問** 解答（#6,543）
+
+<br/>
+
+## 最近のコントリビューション
+
+- **vLLM Metal** [#1379](https://github.com/vllm-project/vllm-metal/pull/1379)：ミラーパスの重複 KV アロケーションを削除（open）
+- **KytyPS5** [#2402](https://github.com/KytyPS5/KytyPS5/pull/2402)/[#2403](https://github.com/KytyPS5/KytyPS5/pull/2403)：MoltenVK デバイス互換とシェーダーのアクセラレーション構造バインディング（open）
+- **vLLM** [#68302](https://github.com/vllm-project/vllm/pull/68302)：バックグラウンド /v1/responses の進行状態マーキングを修正（open）
+- **horizon** [#7123](https://github.com/horizon-rust/horizon/pull/7123)：部分パスでエージェントのナビゲーションが停止する問題を修正（merged）
+- **Wiicompiled** [#414](https://github.com/patchzyy/Wiicompiled/pull/414)：ポートごとのボタンマッピング保存（merged）
+- そのほか **google-research/harness2** に設定・ドキュメント修正を約 10 件
 
 <br/>
 
 ## 注目プロジェクト
 
-### [surf](https://github.com/mitsa-ng/surf)｜Rust でゼロから作るブラウザ
+- **[surf](https://github.com/mitsa-ng/surf)**：Rust でゼロから作るブラウザ `Rust`
+- **[pdiary](https://github.com/mitsa-ng/pdiary)**：プライバシー最優先の AI 音声日記。文字起こしから暗号化まで端末内で完結 `Flutter` `llama.cpp`
+- **[mcgit](https://github.com/mitsa-ng/mcgit)**：Minecraft サーバーセーブのバージョン管理 `Python` `Postgres`
+- **[OmniBoard](https://github.com/mitsa-ng/OmniBoard)**：TypeScript＋Rust のフルスタックボード · [live](https://omniboard-app.vercel.app)
 
-`Rust`
-
-> 自分のブラウザをゼロから書く、長期続けているプロジェクト。
-
-### [pdiary](https://github.com/mitsa-ng/pdiary)｜プライバシー最優先の AI 音声日記
-
-`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` · iOS / Android / macOS
-
-> 話すだけ：オンデバイスの Whisper が文字起こしし、ローカル LLM が文体を書き換え、暗号化してから保存。
-> **データは最初から最後まで端末の外に出ない。**
-
-### [mcgit](https://github.com/mitsa-ng/mcgit)｜Minecraft ワールドのバージョン管理
-
-`Python` `Neon Postgres` `分散ロック`
-
-> `git pull` / `git push` の体験を Minecraft サーバーのセーブデータに：
-> 分散ロックでホストを同時 1 人に限定、履歴は Postgres に保存、セーブデータの上書き事故を根絶。
-
-### [block-puzzle](https://github.com/mitsa-ng/block-puzzle)｜マルチプレイヤー・ブロックパズル PWA
-
-`JavaScript` `Cloudflare Durable Objects` `PWA`
-
-> ルームサービスは Cloudflare Durable Objects 上で動作：対戦、リプレイ、オフラインプレイに対応。
-
-### [Project-Eat](https://github.com/mitsa-ng/Project-Eat)｜AI 英作文添削
-
-`Rust` `OCR` `LLM`
-
-> カメラ／スキャン入力 → OCR → LLM で英作文を自動添削。先生の時間を取り戻す教育ツール。
-
-### [website](https://github.com/mitsa-ng/website)｜三層構成の個人サイトシステム
-
-`Next.js` `Electron` `TypeScript`
-
-> Next.js の公開サイト＋Electron の管理コンソール＋バックグラウンドのレンダリングサービス。3 つのコンポーネントで構成するコンテンツシステム。
-
-### [OmniBoard](https://github.com/mitsa-ng/OmniBoard)｜TypeScript＋Rust のフルスタックボード · [live](https://omniboard-app.vercel.app)
-
-`TypeScript` `Rust` `Docker`
-
-> フロントは TypeScript、バックは Rust、完全コンテナ化：docker-compose ひとつで起動。
-
-<details>
-<summary><b>ラボの実験いろいろ（クリックで展開）</b></summary>
-<br/>
-
-- **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**：ドット絵・コマドリアニメ編集ツール → [live](https://pixmitsa.vercel.app)
-- **[pakitup](https://github.com/mitsa-ng/pakitup)**：クロスプラットフォームなソフトウェアセットアッププランナー＆デスクトップインストーラー
-- **[postflow](https://github.com/mitsa-ng/postflow)**：PostFlow 秒発アシスタント。SNS 投稿を自動で整形
-- **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**：雪狐保育区 Minecraft サーバーのリソースパック（CustomMerged-RP）公開配布
-- **[omniflow](https://github.com/mitsa-ng/omniflow)**：クロスプラットフォーム自動化：Web＋ネイティブ Android（Capacitor/Kotlin）＋OAuth リレー＋Gemini API
-- **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)**：6 人リモート同期の台湾麻雀：ホスト権威の状態同期、完全なルールエンジン（チー／ポン／カン／和了）
-- **[chess](https://github.com/mitsa-ng/chess)**：ブラウザで遊べるチェス → [live](https://mitchess.vercel.app)
-- **[parkwhere](https://github.com/mitsa-ng/parkwhere)**：Next.js 製の駐車スペース検索ツール → [live](https://parkhuh.vercel.app)
-- **[ichisys](https://github.com/mitsa-ng/ichisys)**：Vue＋Python のフルスタックアプリ。Web *と* Electron デスクトップの両方で提供 → [live](https://ichisys.vercel.app)
-- **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)**：maimai プレイヤーカード生成ツール。Hugging Face Spaces（Gradio）にデプロイ
-- **[yt-TV](https://github.com/mitsa-ng/yt-TV)**：YouTube TV（Leanback）を Electron デスクトップクライアントに
-- **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)**：Windows 向けの軽量 Markdown エディタ
-- **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)**：ffmpeg 同梱の CLI アーカイブツール
-- **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)**：robocopy を Python でラップしたファイル同期ツール
-
-</details>
+残り 24 リポジトリ：[github.com/mitsa-ng?tab=repositories](https://github.com/mitsa-ng/?tab=repositories)
 
 <br/>
 
@@ -105,28 +55,19 @@
 
 <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,dart,rust,kotlin&theme=dark" alt="languages" />
 
-**フレームワーク & アプリ**
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,vue,flutter,electron,tailwind,nodejs&theme=dark" alt="frameworks" />
-
 **オンデバイス AI & セキュリティ**
 
 <img src="https://img.shields.io/badge/whisper.cpp-4A154B?style=for-the-badge" alt="whisper.cpp" /> <img src="https://img.shields.io/badge/llama.cpp-8A2BE2?style=for-the-badge" alt="llama.cpp" /> <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/AES--256--GCM-DC143C?style=for-the-badge" alt="AES-256-GCM" />
-
-**インフラ & デプロイ**
-
-<img src="https://skillicons.dev/icons?i=docker,cloudflare,vercel,netlify,postgres,mysql&theme=dark" alt="infra" />
 
 </div>
 
 <br/>
 
-## GitHub 統計
+## GitHub アクティビティ
 
 <div align="center">
 
 <img height="165" src="https://streak-stats.demolab.com?user=mitsa-ng&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="GitHub streak" />
-<img height="165" src="./assets/top-langs.svg" alt="Top languages" />
 
 <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitsa-ng&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Contribution graph" />
 
@@ -134,34 +75,12 @@
 
 <br/>
 
-## アルゴリズム記録（LeetCode）
-
-- 累計 **1,599 問**：Easy **812**｜Medium **669**｜Hard **118**、グローバルランキング **#6,543**
-- 使用言語（解答数）：`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
-
-<details>
-<summary>分野別の内訳（解答数）</summary>
-
-`配列 ×786` `文字列 ×406` `ハッシュテーブル ×311` `数学 ×280` `ソート ×186` `動的計画法 ×145` `DFS ×135` `シミュレーション ×134` `貪欲法 ×128` `行列 ×121` `木 ×117` `ツーポインタ ×116` `二分木 ×105` `ビット演算 ×99` `データベース SQL ×94` `BFS ×92`
-
-</details>
+## コンタクト
 
 <div align="center">
 
-<a href="https://leetcode.com/u/VBHZZEqrGX/"><img width="500" src="https://leetcard.jacoblin.cool/VBHZZEqrGX?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=8" alt="LeetCode stats" /></a>
-
-</div>
-
-<br/>
-
-## オープンソース & コンタクト
-
-- どのリポジトリも **Issue / PR 歓迎**：バグ報告もアイデアも、気軽にどうぞ。必ず目を通します
-- 特に **surf**（Rust ブラウザ）と **pdiary**（オンデバイス AI）でのコラボ大歓迎
-- **お仕事のご相談・コラボのお誘い**も受け付けています：リモート歓迎
-
-<div align="center">
-<br/>
+どのリポジトリも Issue / PR 歓迎。お仕事のご相談・コラボのお誘いも受け付けています（リモート歓迎）。
+<br/><br/>
 
 [![Email](https://img.shields.io/badge/Email-xingencai060%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xingencai060@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)
