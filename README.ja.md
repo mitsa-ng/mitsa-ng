@@ -27,12 +27,13 @@
 
 ## 最近のコントリビューション
 
-- **vLLM Metal** [#1379](https://github.com/vllm-project/vllm-metal/pull/1379)：ミラーパスの重複 KV アロケーションを削除（open）
-- **KytyPS5** [#2402](https://github.com/KytyPS5/KytyPS5/pull/2402)/[#2403](https://github.com/KytyPS5/KytyPS5/pull/2403)：MoltenVK デバイス互換とシェーダーのアクセラレーション構造バインディング（open）
-- **vLLM** [#68302](https://github.com/vllm-project/vllm/pull/68302)：バックグラウンド /v1/responses の進行状態マーキングを修正（open）
-- **horizon** [#7123](https://github.com/horizon-rust/horizon/pull/7123)：部分パスでエージェントのナビゲーションが停止する問題を修正（merged）
-- **Wiicompiled** [#414](https://github.com/patchzyy/Wiicompiled/pull/414)：ポートごとのボタンマッピング保存（merged）
-- そのほか **google-research/harness2** に設定・ドキュメント修正を約 10 件
+<div align="center">
+
+<img src="./assets/contributions.svg" alt="Recent contributions" width="720" />
+
+</div>
+
+完全なリスト：[mitsa-ng の送信済み PR（自分のリポジトリを除く）](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+-user%3Amitsa-ng)。カードは [GitHub Actions](./.github/workflows/contributions.yml) が 6 時間ごとに自動更新します。
 
 <br/>
 

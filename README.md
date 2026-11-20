@@ -27,12 +27,13 @@
 
 ## 最近貢獻
 
-- **vLLM Metal** [#1379](https://github.com/vllm-project/vllm-metal/pull/1379)：移除鏡像路徑的重複 KV 配置（open）
-- **KytyPS5** [#2402](https://github.com/KytyPS5/KytyPS5/pull/2402)／[#2403](https://github.com/KytyPS5/KytyPS5/pull/2403)：MoltenVK 裝置相容與 shader 加速結構綁定（open）
-- **vLLM** [#68302](https://github.com/vllm-project/vllm/pull/68302)：修正背景 /v1/responses 的進度狀態標記（open）
-- **horizon** [#7123](https://github.com/horizon-rust/horizon/pull/7123)：修復 agent 導航在部分路徑卡住的問題（merged）
-- **Wiicompiled** [#414](https://github.com/patchzyy/Wiicompiled/pull/414)：按 port 保存按鍵映射（merged）
-- 另對 **google-research/harness2** 送出約 10 個設定與文件修復
+<div align="center">
+
+<img src="./assets/contributions.svg" alt="Recent contributions" width="720" />
+
+</div>
+
+完整清單：[我送出的 PR（不含自家 repo）](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+-user%3Amitsa-ng)。卡片由 [GitHub Actions](./.github/workflows/contributions.yml) 每六小時自動更新。
 
 <br/>
 

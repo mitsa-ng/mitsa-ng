@@ -27,12 +27,13 @@
 
 ## Recent contributions
 
-- **vLLM Metal** [#1379](https://github.com/vllm-project/vllm-metal/pull/1379): drop the duplicated KV allocation on the mirrored path (open)
-- **KytyPS5** [#2402](https://github.com/KytyPS5/KytyPS5/pull/2402)/[#2403](https://github.com/KytyPS5/KytyPS5/pull/2403): MoltenVK device compatibility and shader acceleration-structure bindings (open)
-- **vLLM** [#68302](https://github.com/vllm-project/vllm/pull/68302): fix progress marking for background /v1/responses (open)
-- **horizon** [#7123](https://github.com/horizon-rust/horizon/pull/7123): fix agent navigation getting stuck on partial paths (merged)
-- **Wiicompiled** [#414](https://github.com/patchzyy/Wiicompiled/pull/414): save button mappings per port (merged)
-- Plus roughly 10 config and docs fixes to **google-research/harness2**
+<div align="center">
+
+<img src="./assets/contributions.svg" alt="Recent contributions" width="720" />
+
+</div>
+
+Full list: [PRs by mitsa-ng (excluding own repos)](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+-user%3Amitsa-ng). The card refreshes every six hours via [GitHub Actions](./.github/workflows/contributions.yml).
 
 <br/>
 

@@ -27,12 +27,13 @@
 
 ## Contributions récentes
 
-- **vLLM Metal** [#1379](https://github.com/vllm-project/vllm-metal/pull/1379) : suppression de l'allocation KV dupliquée sur le chemin miroir (open)
-- **KytyPS5** [#2402](https://github.com/KytyPS5/KytyPS5/pull/2402)/[#2403](https://github.com/KytyPS5/KytyPS5/pull/2403) : compatibilité MoltenVK et liaisons d'accélération pour les shaders (open)
-- **vLLM** [#68302](https://github.com/vllm-project/vllm/pull/68302) : correction du marquage de progression des /v1/responses en arrière-plan (open)
-- **horizon** [#7123](https://github.com/horizon-rust/horizon/pull/7123) : correction de la navigation des agents bloquée sur les chemins partiels (merged)
-- **Wiicompiled** [#414](https://github.com/patchzyy/Wiicompiled/pull/414) : sauvegarde des mappings de boutons par port (merged)
-- Une dizaine de correctifs de configuration et de docs pour **google-research/harness2**
+<div align="center">
+
+<img src="./assets/contributions.svg" alt="Recent contributions" width="720" />
+
+</div>
+
+Liste complète : [PR de mitsa-ng (hors dépôts personnels)](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+-user%3Amitsa-ng). La carte est actualisée toutes les six heures par [GitHub Actions](./.github/workflows/contributions.yml).
 
 <br/>
 
