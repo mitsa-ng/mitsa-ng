@@ -7,7 +7,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=210&section=header&text=Nati&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Full-stack%20%C2%B7%20On-device%20AI%20%C2%B7%20Multiplayer%20Games&descSize=16&descAlignY=52" alt="banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati+%F0%9F%91%8B;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&background=0D1117&repeat=false&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
 
 <img src="https://komarev.com/ghpvc/?username=mitsa-ng&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
 
@@ -17,92 +17,92 @@
 
 <br/>
 
-## 👋 關於我
+## 關於我
 
-- 🔭 專注於 **全端系統**、**裝置端 AI** 與 **多人連線遊戲**
-- 🔐 相信 **隱私是功能，不是設定選項**——能在裝置端跑的，就不上雲
-- 🚢 信條：**先出貨，再打磨**。目前 28 個公開 repo，5 個有 live demo
-- 💬 樂聊：裝置端 AI、隱私工程、多人遊戲同步、全端架構
+- 專注於 **全端系統**、**裝置端 AI** 與 **多人連線遊戲**
+- 相信 **隱私是功能，不是設定選項**：能在裝置端跑的，就不上雲
+- 信條：**先出貨，再打磨**。目前 28 個公開 repo，5 個有 live demo
+- 樂聊：裝置端 AI、隱私工程、多人遊戲同步、全端架構
 
-## 🧭 目前進行中
+## 目前進行中
 
-- 🏄 打造 **surf**：用 Rust 從零寫一個瀏覽器
-- ✍️ 以 **Rust** 重寫 **Project-Eat**：OCR＋LLM 自動批改英文作文
-- 🦀 深挖 **Rust 後端**（OmniBoard）與 **分散式狀態同步**（mcgit、block-puzzle）
-- 🌱 持續研究 **裝置端 AI 工程化**（pdiary）：模型量化、Metal 加速、隱私優先架構
+- 打造 **surf**：用 Rust 從零寫一個瀏覽器
+- 以 **Rust** 重寫 **Project-Eat**：OCR＋LLM 自動批改英文作文
+- 深挖 **Rust 後端**（OmniBoard）與 **分散式狀態同步**（mcgit、block-puzzle）
+- 持續研究 **裝置端 AI 工程化**（pdiary）：模型量化、Metal 加速、隱私優先架構
 
 <br/>
 
-## 🚀 精選專案
+## 精選專案
 
-### 🏄 [surf](https://github.com/mitsa-ng/surf)｜用 Rust 從零打造的瀏覽器
+### [surf](https://github.com/mitsa-ng/surf)｜用 Rust 從零打造的瀏覽器
 
 `Rust`
 
 > 正在從零開始寫一個自己的瀏覽器，長期工程，持續推進中。
 
-### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary)｜隱私優先的 AI 語音日記
+### [pdiary](https://github.com/mitsa-ng/pdiary)｜隱私優先的 AI 語音日記
 
-`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` — iOS / Android / macOS
+`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` · iOS / Android / macOS
 
-> 開口說話——裝置端 Whisper 轉錄，本地 LLM 重寫語氣，加密後才落地儲存。
+> 開口說話：裝置端 Whisper 轉錄，本地 LLM 重寫語氣，加密後才落地儲存。
 > **內容從頭到尾不離開你的裝置。**
 
-### ⛏️ [mcgit](https://github.com/mitsa-ng/mcgit)｜Minecraft 世界的版本控制
+### [mcgit](https://github.com/mitsa-ng/mcgit)｜Minecraft 世界的版本控制
 
 `Python` `Neon Postgres` `分散式鎖`
 
-> 把 `git pull` / `git push` 的體驗搬到 Minecraft 伺服器存檔——
+> 把 `git pull` / `git push` 的體驗搬到 Minecraft 伺服器存檔：
 > 分散式鎖保證同一時間只有一位服主，版本歷史存在 Postgres，存檔不再互相覆蓋。
 
-### 🧩 [block-puzzle](https://github.com/mitsa-ng/block-puzzle)｜多人方塊消除 PWA
+### [block-puzzle](https://github.com/mitsa-ng/block-puzzle)｜多人方塊消除 PWA
 
 `JavaScript` `Cloudflare Durable Objects` `PWA`
 
 > 房間服務跑在 Cloudflare Durable Objects 上，支援多人對戰、回放、離線遊玩。
 
-### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat)｜AI 英文作文批改
+### [Project-Eat](https://github.com/mitsa-ng/Project-Eat)｜AI 英文作文批改
 
 `Rust` `OCR` `LLM`
 
 > 相機／掃描輸入 → OCR 識別 → LLM 自動批改，給老師省時間的教育工具。
 
-### 🖥️ [website](https://github.com/mitsa-ng/website)｜三層個人網站系統
+### [website](https://github.com/mitsa-ng/website)｜三層個人網站系統
 
 `Next.js` `Electron` `TypeScript`
 
 > 不只是個人網站：Next.js 公開網站＋Electron 管理後台＋背景渲染服務，一套完整的內容系統。
 
-### 📊 [OmniBoard](https://github.com/mitsa-ng/OmniBoard)｜TypeScript＋Rust 全端看板 · [🔗 live](https://omniboard-app.vercel.app)
+### [OmniBoard](https://github.com/mitsa-ng/OmniBoard)｜TypeScript＋Rust 全端看板 · [live](https://omniboard-app.vercel.app)
 
 `TypeScript` `Rust` `Docker`
 
-> TypeScript 前端、Rust 後端、完整容器化——docker-compose 一鍵起服務。
+> TypeScript 前端、Rust 後端、完整容器化：docker-compose 一鍵起服務。
 
 <details>
-<summary><b>📦 更多實驗（點開看全部）</b></summary>
+<summary><b>更多實驗（點開看全部）</b></summary>
 <br/>
 
-- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**：像素畫與逐格動畫編輯器 → [live](https://pixmitsa.vercel.app)
-- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)**：跨平台軟體安裝規劃器與桌面安裝器
-- 📮 **[postflow](https://github.com/mitsa-ng/postflow)**：PostFlow 秒發助手，跨平台社群內容自動化美化器
-- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**：雪狐保育區 Minecraft 伺服器資源包（CustomMerged-RP）公開下載
-- 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — 跨平台工作流自動化：Web＋原生 Android（Capacitor/Kotlin）＋OAuth 中繼＋Gemini API
-- 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — 六人遠端連線台灣麻將：房主權威狀態同步，完整規則引擎（吃碰槓胡）
-- ♟️ **[chess](https://github.com/mitsa-ng/chess)** — 瀏覽器就能玩的西洋棋 → [live](https://mitchess.vercel.app)
-- 🅿️ **[parkwhere](https://github.com/mitsa-ng/parkwhere)** — 用 Next.js 打造的停車位查詢工具 → [live](https://parkhuh.vercel.app)
-- 🎛️ **[ichisys](https://github.com/mitsa-ng/ichisys)** — Vue＋Python 全端應用，同時以 Web *和* Electron 桌面版出貨 → [live](https://ichisys.vercel.app)
-- 🎵 **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)** — maimai 玩家卡片產生器，部署在 Hugging Face Spaces（Gradio）
-- 📺 **[yt-TV](https://github.com/mitsa-ng/yt-TV)** — 把 YouTube TV（Leanback）做成 Electron 桌面客戶端
-- 📝 **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)** — Windows 上的輕量 Markdown 編輯器
-- 📼 **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)** — 內建 ffmpeg 的 CLI 存檔工具
-- 🗂️ **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)** — robocopy 檔案同步的 Python 包裝
+- **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**：像素畫與逐格動畫編輯器 → [live](https://pixmitsa.vercel.app)
+- **[pakitup](https://github.com/mitsa-ng/pakitup)**：跨平台軟體安裝規劃器與桌面安裝器
+- **[postflow](https://github.com/mitsa-ng/postflow)**：PostFlow 秒發助手，跨平台社群內容自動化美化器
+- **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**：雪狐保育區 Minecraft 伺服器資源包（CustomMerged-RP）公開下載
+- **[omniflow](https://github.com/mitsa-ng/omniflow)**：跨平台工作流自動化：Web＋原生 Android（Capacitor/Kotlin）＋OAuth 中繼＋Gemini API
+- **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)**：六人遠端連線台灣麻將：房主權威狀態同步，完整規則引擎（吃碰槓胡）
+- **[chess](https://github.com/mitsa-ng/chess)**：瀏覽器就能玩的西洋棋 → [live](https://mitchess.vercel.app)
+- **[parkwhere](https://github.com/mitsa-ng/parkwhere)**：用 Next.js 打造的停車位查詢工具 → [live](https://parkhuh.vercel.app)
+- **[ichisys](https://github.com/mitsa-ng/ichisys)**：Vue＋Python 全端應用，同時以 Web *和* Electron 桌面版出貨 → [live](https://ichisys.vercel.app)
+- **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)**：maimai 玩家卡片產生器，部署在 Hugging Face Spaces（Gradio）
+- **[yt-TV](https://github.com/mitsa-ng/yt-TV)**：把 YouTube TV（Leanback）做成 Electron 桌面客戶端
+- **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)**：Windows 上的輕量 Markdown 編輯器
+- **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)**：內建 ffmpeg 的 CLI 存檔工具
+- **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)**：robocopy 檔案同步的 Python 包裝
 
 </details>
 
 <br/>
 
-## 🛠️ 技術棧
+## 技術棧
 
 <div align="center">
 
@@ -126,7 +126,7 @@
 
 <br/>
 
-## 📊 GitHub 統計
+## GitHub 統計
 
 <div align="center">
 
@@ -139,15 +139,15 @@
 
 <br/>
 
-## 🧠 演算法戰績（LeetCode）
+## 演算法戰績（LeetCode）
 
-- ✅ 累計解題 **1,599**：Easy **812**｜Medium **669**｜Hard **118**，全站排名 **#6,543**
+- 累計解題 **1,599**：Easy **812**｜Medium **669**｜Hard **118**，全站排名 **#6,543**
 
-**🗂️ 主題分佈**（依題數）
+**主題分佈**（依題數）
 
 `陣列 ×786` `字串 ×406` `雜湊表 ×311` `數學 ×280` `排序 ×186` `動態規劃 ×145` `DFS ×135` `模擬 ×134` `貪心 ×128` `矩陣 ×121` `樹 ×117` `雙指針 ×116` `二元樹 ×105` `位元運算 ×99` `資料庫 SQL ×94` `BFS ×92`
 
-**💻 解題語言**（依題數）
+**解題語言**（依題數）
 
 `C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
@@ -159,11 +159,11 @@
 
 <br/>
 
-## 🤝 開源協作與聯絡
+## 開源協作與聯絡
 
-- ✅ 所有 repo 都歡迎 **Issue 與 PR**——發現 bug、有想法或想一起做，直接開，我會回
-- 🧑‍💻 特別歡迎在 **surf**（Rust 瀏覽器）與 **pdiary**（裝置端 AI）上交流
-- 💼 開放 **工作機會與合作洽談**，遠端友善
+- 所有 repo 都歡迎 **Issue 與 PR**：發現 bug、有想法或想一起做，直接開，我會回
+- 特別歡迎在 **surf**（Rust 瀏覽器）與 **pdiary**（裝置端 AI）上交流
+- 開放 **工作機會與合作洽談**，遠端友善
 
 <div align="center">
 <br/>

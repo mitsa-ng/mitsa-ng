@@ -7,7 +7,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=210&section=header&text=Nati&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Full-stack%20%C2%B7%20On-device%20AI%20%C2%B7%20Multiplayer%20Games&descSize=16&descAlignY=52" alt="banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati+%F0%9F%91%8B;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&background=0D1117&repeat=false&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
 
 <img src="https://komarev.com/ghpvc/?username=mitsa-ng&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
 
@@ -17,92 +17,92 @@
 
 <br/>
 
-## 👋 About me
+## About me
 
-- 🔭 Focused on **full-stack systems**, **on-device AI** and **multiplayer games**
-- 🔐 I believe **privacy is a feature, not a setting** — if it can run on-device, it shouldn't need the cloud
-- 🚢 Motto: **ship it, then polish it**. 28 public repos so far, 5 with live demos
-- 💬 Happy to talk about: on-device AI, privacy engineering, multiplayer sync, full-stack architecture
+- Focused on **full-stack systems**, **on-device AI** and **multiplayer games**
+- I believe **privacy is a feature, not a setting**: if it can run on-device, it shouldn't need the cloud
+- Motto: **ship it, then polish it**. 28 public repos so far, 5 with live demos
+- Happy to talk about: on-device AI, privacy engineering, multiplayer sync, full-stack architecture
 
-## 🧭 What I'm up to
+## What I'm up to
 
-- 🏄 Building **surf**: a browser written from scratch in Rust
-- ✍️ Rewriting **Project-Eat** in **Rust**: OCR + LLM essay marking
-- 🦀 Going deeper on **Rust back-ends** (OmniBoard) and **distributed state sync** (mcgit, block-puzzle)
-- 🌱 Ongoing research: **productionising on-device AI** in pdiary (quantisation, Metal acceleration, privacy-first architecture)
+- Building **surf**: a browser written from scratch in Rust
+- Rewriting **Project-Eat** in **Rust**: OCR + LLM essay marking
+- Going deeper on **Rust back-ends** (OmniBoard) and **distributed state sync** (mcgit, block-puzzle)
+- Ongoing research: **productionising on-device AI** in pdiary (quantisation, Metal acceleration, privacy-first architecture)
 
 <br/>
 
-## 🚀 Featured projects
+## Featured projects
 
-### 🏄 [surf](https://github.com/mitsa-ng/surf) | A browser built from scratch in Rust
+### [surf](https://github.com/mitsa-ng/surf) | A browser built from scratch in Rust
 
 `Rust`
 
 > Writing my own browser from zero. A long-running project, actively moving forward.
 
-### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary) | Privacy-first AI voice diary
+### [pdiary](https://github.com/mitsa-ng/pdiary) | Privacy-first AI voice diary
 
-`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` — iOS / Android / macOS
+`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` · iOS / Android / macOS
 
-> Just speak — on-device Whisper transcribes, a local LLM rewrites the tone, and entries are encrypted before they touch disk.
+> Just speak: on-device Whisper transcribes, a local LLM rewrites the tone, and entries are encrypted before they touch disk.
 > **Nothing ever leaves your device.**
 
-### ⛏️ [mcgit](https://github.com/mitsa-ng/mcgit) | Version control for Minecraft worlds
+### [mcgit](https://github.com/mitsa-ng/mcgit) | Version control for Minecraft worlds
 
 `Python` `Neon Postgres` `distributed lock`
 
-> The `git pull` / `git push` experience, applied to Minecraft server saves —
+> The `git pull` / `git push` experience, applied to Minecraft server saves:
 > a distributed lock guarantees one host at a time, version history lives in Postgres, and saves never clobber each other.
 
-### 🧩 [block-puzzle](https://github.com/mitsa-ng/block-puzzle) | Multiplayer block-puzzle PWA
+### [block-puzzle](https://github.com/mitsa-ng/block-puzzle) | Multiplayer block-puzzle PWA
 
 `JavaScript` `Cloudflare Durable Objects` `PWA`
 
-> Room service runs on Cloudflare Durable Objects — multiplayer matches, replays, playable offline.
+> Room service runs on Cloudflare Durable Objects: multiplayer matches, replays, playable offline.
 
-### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | AI essay marking
+### [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | AI essay marking
 
 `Rust` `OCR` `LLM`
 
 > Camera/scan input → OCR → LLM pipeline that marks English essays automatically. An ed-tech tool that saves teachers time.
 
-### 🖥️ [website](https://github.com/mitsa-ng/website) | Three-tier personal site system
+### [website](https://github.com/mitsa-ng/website) | Three-tier personal site system
 
 `Next.js` `Electron` `TypeScript`
 
-> Not just a personal site: Next.js public site + Electron admin console + background render service — a complete content system.
+> Not just a personal site: Next.js public site + Electron admin console + background render service: a complete content system.
 
-### 📊 [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | TypeScript + Rust full-stack board · [🔗 live](https://omniboard-app.vercel.app)
+### [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | TypeScript + Rust full-stack board · [live](https://omniboard-app.vercel.app)
 
 `TypeScript` `Rust` `Docker`
 
-> TypeScript front-end, Rust back-end, fully containerised — one docker-compose to bring it all up.
+> TypeScript front-end, Rust back-end, fully containerised: one docker-compose to bring it all up.
 
 <details>
-<summary><b>📦 more experiments in the lab (click to expand)</b></summary>
+<summary><b>more experiments in the lab (click to expand)</b></summary>
 <br/>
 
-- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**: pixel art & frame-by-frame animation editor → [live](https://pixmitsa.vercel.app)
-- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)**: curated cross-platform software setup planner and desktop installer
-- 📮 **[postflow](https://github.com/mitsa-ng/postflow)**: PostFlow, a cross-platform auto-polisher for social posts
-- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**: public resource pack for the SnowFox Minecraft server (CustomMerged-RP)
-- 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — cross-platform workflow automation: Web + native Android (Capacitor/Kotlin) + OAuth relay + Gemini API
-- 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — 6-player remote-sync Taiwanese mahjong: host-authoritative state, full rules engine (chi/pong/kang/hu)
-- ♟️ **[chess](https://github.com/mitsa-ng/chess)** — chess in the browser → [live](https://mitchess.vercel.app)
-- 🅿️ **[parkwhere](https://github.com/mitsa-ng/parkwhere)** — parking-spot finder built with Next.js → [live](https://parkhuh.vercel.app)
-- 🎛️ **[ichisys](https://github.com/mitsa-ng/ichisys)** — Vue + Python full-stack app, ships as Web *and* Electron desktop → [live](https://ichisys.vercel.app)
-- 🎵 **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)** — maimai player-card generator, deployed on Hugging Face Spaces (Gradio)
-- 📺 **[yt-TV](https://github.com/mitsa-ng/yt-TV)** — YouTube TV (Leanback) as an Electron desktop client
-- 📝 **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)** — lightweight Markdown editor for Windows
-- 📼 **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)** — CLI archiver with bundled ffmpeg
-- 🗂️ **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)** — Python wrapper around robocopy for file sync
+- **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)**: pixel art & frame-by-frame animation editor → [live](https://pixmitsa.vercel.app)
+- **[pakitup](https://github.com/mitsa-ng/pakitup)**: curated cross-platform software setup planner and desktop installer
+- **[postflow](https://github.com/mitsa-ng/postflow)**: PostFlow, a cross-platform auto-polisher for social posts
+- **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)**: public resource pack for the SnowFox Minecraft server (CustomMerged-RP)
+- **[omniflow](https://github.com/mitsa-ng/omniflow)**: cross-platform workflow automation: Web + native Android (Capacitor/Kotlin) + OAuth relay + Gemini API
+- **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)**: 6-player remote-sync Taiwanese mahjong: host-authoritative state, full rules engine (chi/pong/kang/hu)
+- **[chess](https://github.com/mitsa-ng/chess)**: chess in the browser → [live](https://mitchess.vercel.app)
+- **[parkwhere](https://github.com/mitsa-ng/parkwhere)**: parking-spot finder built with Next.js → [live](https://parkhuh.vercel.app)
+- **[ichisys](https://github.com/mitsa-ng/ichisys)**: Vue + Python full-stack app, ships as Web *and* Electron desktop → [live](https://ichisys.vercel.app)
+- **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)**: maimai player-card generator, deployed on Hugging Face Spaces (Gradio)
+- **[yt-TV](https://github.com/mitsa-ng/yt-TV)**: YouTube TV (Leanback) as an Electron desktop client
+- **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)**: lightweight Markdown editor for Windows
+- **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)**: CLI archiver with bundled ffmpeg
+- **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)**: Python wrapper around robocopy for file sync
 
 </details>
 
 <br/>
 
-## 🛠️ Tech stack
+## Tech stack
 
 <div align="center">
 
@@ -126,7 +126,7 @@
 
 <br/>
 
-## 📊 GitHub stats
+## GitHub stats
 
 <div align="center">
 
@@ -139,15 +139,15 @@
 
 <br/>
 
-## 🧠 Algorithm practice (LeetCode)
+## Algorithm practice (LeetCode)
 
-- ✅ **1,599 problems solved**: Easy **812** | Medium **669** | Hard **118**, global ranking **#6,543**
+- **1,599 problems solved**: Easy **812** | Medium **669** | Hard **118**, global ranking **#6,543**
 
-**🗂️ Topics covered** (by problems solved)
+**Topics covered** (by problems solved)
 
 `Array ×786` `String ×406` `Hash Table ×311` `Math ×280` `Sorting ×186` `Dynamic Programming ×145` `DFS ×135` `Simulation ×134` `Greedy ×128` `Matrix ×121` `Tree ×117` `Two Pointers ×116` `Binary Tree ×105` `Bit Manipulation ×99` `Database/SQL ×94` `BFS ×92`
 
-**💻 Languages used** (by problems solved)
+**Languages used** (by problems solved)
 
 `C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
@@ -159,11 +159,11 @@
 
 <br/>
 
-## 🤝 Open source & contact
+## Open source & contact
 
-- ✅ **Issues and PRs welcome** on every repo — found a bug or have an idea? Open one, I'll respond
-- 🧑‍💻 Especially keen to collaborate on **surf** (Rust browser) and **pdiary** (on-device AI)
-- 💼 Open to **job opportunities and freelance work** — remote-friendly
+- **Issues and PRs welcome** on every repo: found a bug or have an idea? Open one, I'll respond
+- Especially keen to collaborate on **surf** (Rust browser) and **pdiary** (on-device AI)
+- Open to **job opportunities and freelance work**: remote-friendly
 
 <div align="center">
 <br/>

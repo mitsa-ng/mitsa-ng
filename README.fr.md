@@ -7,7 +7,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=210&section=header&text=Nati&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Full-stack%20%C2%B7%20On-device%20AI%20%C2%B7%20Multiplayer%20Games&descSize=16&descAlignY=52" alt="banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati+%F0%9F%91%8B;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&background=0D1117&repeat=false&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
 
 <img src="https://komarev.com/ghpvc/?username=mitsa-ng&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
 
@@ -17,92 +17,92 @@
 
 <br/>
 
-## 👋 À propos
+## À propos
 
-- 🔭 Focalisé sur les **systèmes full-stack**, l'**IA embarquée** et les **jeux multijoueurs**
-- 🔐 **La vie privée est une fonctionnalité, pas un réglage** — si ça peut tourner sur l'appareil, pas besoin du cloud
-- 🚢 Devise : **livrer d'abord, peaufiner ensuite**. 28 dépôts publics, dont 5 avec démo en ligne
-- 💬 Sujets favoris : IA embarquée, ingénierie de la confidentialité, synchro multijoueur, architecture full-stack
+- Focalisé sur les **systèmes full-stack**, l'**IA embarquée** et les **jeux multijoueurs**
+- **La vie privée est une fonctionnalité, pas un réglage** : si ça peut tourner sur l'appareil, pas besoin du cloud
+- Devise : **livrer d'abord, peaufiner ensuite**. 28 dépôts publics, dont 5 avec démo en ligne
+- Sujets favoris : IA embarquée, ingénierie de la confidentialité, synchro multijoueur, architecture full-stack
 
-## 🧭 En ce moment
+## En ce moment
 
-- 🏄 Développement de **surf** : un navigateur écrit en Rust à partir de zéro
-- ✍️ Réécriture de **Project-Eat** en **Rust** : correction de rédactions par OCR + LLM
-- 🦀 Approfondissement des **back-ends Rust** (OmniBoard) et de la **synchro d'état distribuée** (mcgit, block-puzzle)
-- 🌱 Recherche continue : **industrialiser l'IA embarquée** dans pdiary (quantification, accélération Metal, architecture privacy-first)
+- Développement de **surf** : un navigateur écrit en Rust à partir de zéro
+- Réécriture de **Project-Eat** en **Rust** : correction de rédactions par OCR + LLM
+- Approfondissement des **back-ends Rust** (OmniBoard) et de la **synchro d'état distribuée** (mcgit, block-puzzle)
+- Recherche continue : **industrialiser l'IA embarquée** dans pdiary (quantification, accélération Metal, architecture privacy-first)
 
 <br/>
 
-## 🚀 Projets phares
+## Projets phares
 
-### 🏄 [surf](https://github.com/mitsa-ng/surf) | Un navigateur écrit en Rust à partir de zéro
+### [surf](https://github.com/mitsa-ng/surf) | Un navigateur écrit en Rust à partir de zéro
 
 `Rust`
 
 > Écrire son propre navigateur depuis zéro. Un projet au long cours, qui avance.
 
-### 🔐 [pdiary](https://github.com/mitsa-ng/pdiary) | Journal vocal IA axé confidentialité
+### [pdiary](https://github.com/mitsa-ng/pdiary) | Journal vocal IA axé confidentialité
 
-`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` — iOS / Android / macOS
+`Flutter` `whisper.cpp` `llama.cpp` `AES-256-GCM` · iOS / Android / macOS
 
-> Parlez, c'est tout — Whisper transcrit sur l'appareil, un LLM local réécrit le ton, et chaque entrée est chiffrée avant d'être stockée.
+> Parlez, c'est tout : Whisper transcrit sur l'appareil, un LLM local réécrit le ton, et chaque entrée est chiffrée avant d'être stockée.
 > **Rien ne quitte jamais l'appareil.**
 
-### ⛏️ [mcgit](https://github.com/mitsa-ng/mcgit) | Contrôle de version pour mondes Minecraft
+### [mcgit](https://github.com/mitsa-ng/mcgit) | Contrôle de version pour mondes Minecraft
 
 `Python` `Neon Postgres` `verrou distribué`
 
-> L'expérience `git pull` / `git push`, appliquée aux sauvegardes de serveurs Minecraft —
+> L'expérience `git pull` / `git push`, appliquée aux sauvegardes de serveurs Minecraft :
 > un verrou distribué garantit un seul hôte à la fois, l'historique vit dans Postgres, fini les sauvegardes écrasées.
 
-### 🧩 [block-puzzle](https://github.com/mitsa-ng/block-puzzle) | PWA de puzzle multijoueur
+### [block-puzzle](https://github.com/mitsa-ng/block-puzzle) | PWA de puzzle multijoueur
 
 `JavaScript` `Cloudflare Durable Objects` `PWA`
 
-> Le service de salons tourne sur Cloudflare Durable Objects — parties multijoueurs, replays, jouable hors ligne.
+> Le service de salons tourne sur Cloudflare Durable Objects : parties multijoueurs, replays, jouable hors ligne.
 
-### ✍️ [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | Correction de rédactions par IA
+### [Project-Eat](https://github.com/mitsa-ng/Project-Eat) | Correction de rédactions par IA
 
 `Rust` `OCR` `LLM`
 
 > Entrée caméra/scan → OCR → pipeline LLM qui corrige automatiquement des rédactions en anglais. Un outil ed-tech qui rend du temps aux enseignants.
 
-### 🖥️ [website](https://github.com/mitsa-ng/website) | Système de site perso à trois niveaux
+### [website](https://github.com/mitsa-ng/website) | Système de site perso à trois niveaux
 
 `Next.js` `Electron` `TypeScript`
 
-> Pas un simple site perso : site public Next.js + console d'admin Electron + service de rendu en arrière-plan — un système de contenu complet.
+> Pas un simple site perso : site public Next.js + console d'admin Electron + service de rendu en arrière-plan : un système de contenu complet.
 
-### 📊 [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | Tableau full-stack TypeScript + Rust · [🔗 live](https://omniboard-app.vercel.app)
+### [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | Tableau full-stack TypeScript + Rust · [live](https://omniboard-app.vercel.app)
 
 `TypeScript` `Rust` `Docker`
 
-> Front en TypeScript, back en Rust, entièrement conteneurisé — un seul docker-compose pour tout lancer.
+> Front en TypeScript, back en Rust, entièrement conteneurisé : un seul docker-compose pour tout lancer.
 
 <details>
-<summary><b>📦 encore plus d'expériences au labo (cliquer pour déplier)</b></summary>
+<summary><b>encore plus d'expériences au labo (cliquer pour déplier)</b></summary>
 <br/>
 
-- 🎨 **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)** : éditeur de pixel art et d'animation image par image → [live](https://pixmitsa.vercel.app)
-- 📦 **[pakitup](https://github.com/mitsa-ng/pakitup)** : planificateur d'installation logicielle multiplateforme et installateur desktop
-- 📮 **[postflow](https://github.com/mitsa-ng/postflow)** : PostFlow, assistant de mise en forme automatique pour posts réseaux sociaux
-- 🦊 **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)** : resource pack public pour le serveur Minecraft SnowFox (CustomMerged-RP)
-- 🤖 **[omniflow](https://github.com/mitsa-ng/omniflow)** — automatisation de flux multiplateforme : Web + Android natif (Capacitor/Kotlin) + relais OAuth + API Gemini
-- 🀄 **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** — mahjong taïwanais à 6 joueurs en synchro distante : état géré par l'hôte, moteur de règles complet (chi/pong/kang/hu)
-- ♟️ **[chess](https://github.com/mitsa-ng/chess)** — des échecs dans le navigateur → [live](https://mitchess.vercel.app)
-- 🅿️ **[parkwhere](https://github.com/mitsa-ng/parkwhere)** — chercheur de places de parking construit avec Next.js → [live](https://parkhuh.vercel.app)
-- 🎛️ **[ichisys](https://github.com/mitsa-ng/ichisys)** — appli full-stack Vue + Python, livrée en Web *et* en desktop Electron → [live](https://ichisys.vercel.app)
-- 🎵 **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)** — générateur de cartes de joueur maimai, déployé sur Hugging Face Spaces (Gradio)
-- 📺 **[yt-TV](https://github.com/mitsa-ng/yt-TV)** — YouTube TV (Leanback) en client desktop Electron
-- 📝 **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)** — éditeur Markdown léger pour Windows
-- 📼 **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)** — archiveur CLI avec ffmpeg embarqué
-- 🗂️ **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)** — wrapper Python autour de robocopy pour la synchro de fichiers
+- **[pixel-studio](https://github.com/mitsa-ng/pixel-studio)** : éditeur de pixel art et d'animation image par image → [live](https://pixmitsa.vercel.app)
+- **[pakitup](https://github.com/mitsa-ng/pakitup)** : planificateur d'installation logicielle multiplateforme et installateur desktop
+- **[postflow](https://github.com/mitsa-ng/postflow)** : PostFlow, assistant de mise en forme automatique pour posts réseaux sociaux
+- **[snowfox-resourcepack](https://github.com/mitsa-ng/snowfox-resourcepack)** : resource pack public pour le serveur Minecraft SnowFox (CustomMerged-RP)
+- **[omniflow](https://github.com/mitsa-ng/omniflow)** : automatisation de flux multiplateforme : Web + Android natif (Capacitor/Kotlin) + relais OAuth + API Gemini
+- **[six-people-majon](https://github.com/mitsa-ng/six-people-majon)** : mahjong taïwanais à 6 joueurs en synchro distante : état géré par l'hôte, moteur de règles complet (chi/pong/kang/hu)
+- **[chess](https://github.com/mitsa-ng/chess)** : des échecs dans le navigateur → [live](https://mitchess.vercel.app)
+- **[parkwhere](https://github.com/mitsa-ng/parkwhere)** : chercheur de places de parking construit avec Next.js → [live](https://parkhuh.vercel.app)
+- **[ichisys](https://github.com/mitsa-ng/ichisys)** : appli full-stack Vue + Python, livrée en Web *et* en desktop Electron → [live](https://ichisys.vercel.app)
+- **[maiplayerprofile](https://github.com/mitsa-ng/maiplayerprofile)** : générateur de cartes de joueur maimai, déployé sur Hugging Face Spaces (Gradio)
+- **[yt-TV](https://github.com/mitsa-ng/yt-TV)** : YouTube TV (Leanback) en client desktop Electron
+- **[MarkDownEditor](https://github.com/mitsa-ng/MarkDownEditor)** : éditeur Markdown léger pour Windows
+- **[anime1ArchiveTool](https://github.com/mitsa-ng/anime1ArchiveTool)** : archiveur CLI avec ffmpeg embarqué
+- **[robocopyTool](https://github.com/mitsa-ng/robocopyTool)** : wrapper Python autour de robocopy pour la synchro de fichiers
 
 </details>
 
 <br/>
 
-## 🛠️ Stack technique
+## Stack technique
 
 <div align="center">
 
@@ -126,7 +126,7 @@
 
 <br/>
 
-## 📊 Stats GitHub
+## Stats GitHub
 
 <div align="center">
 
@@ -139,15 +139,15 @@
 
 <br/>
 
-## 🧠 Algorithmique (LeetCode)
+## Algorithmique (LeetCode)
 
-- ✅ **1 599 problèmes résolus** : Easy **812** | Medium **669** | Hard **118**, classement mondial **#6 543**
+- **1 599 problèmes résolus** : Easy **812** | Medium **669** | Hard **118**, classement mondial **#6 543**
 
-**🗂️ Thèmes couverts** (par nombre de problèmes)
+**Thèmes couverts** (par nombre de problèmes)
 
 `Tableaux ×786` `Chaînes ×406` `Tables de hachage ×311` `Maths ×280` `Tri ×186` `Programmation dynamique ×145` `DFS ×135` `Simulation ×134` `Glouton ×128` `Matrices ×121` `Arbres ×117` `Deux pointeurs ×116` `Arbres binaires ×105` `Manipulation de bits ×99` `Base de données SQL ×94` `BFS ×92`
 
-**💻 Langages utilisés** (par nombre de problèmes)
+**Langages utilisés** (par nombre de problèmes)
 
 `C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
@@ -159,11 +159,11 @@
 
 <br/>
 
-## 🤝 Open source & contact
+## Open source & contact
 
-- ✅ **Issues et PR bienvenues** sur tous les dépôts — un bug, une idée ? Ouvrez, je réponds
-- 🧑‍💻 Particulièrement partant pour collaborer sur **surf** (navigateur Rust) et **pdiary** (IA embarquée)
-- 💼 Ouvert aux **opportunités professionnelles et missions freelance** — télétravail bienvenu
+- **Issues et PR bienvenues** sur tous les dépôts : un bug, une idée ? Ouvrez, je réponds
+- Particulièrement partant pour collaborer sur **surf** (navigateur Rust) et **pdiary** (IA embarquée)
+- Ouvert aux **opportunités professionnelles et missions freelance** : télétravail bienvenu
 
 <div align="center">
 <br/>
