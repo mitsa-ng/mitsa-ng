@@ -20,16 +20,11 @@
 ## À propos
 
 - Focalisé sur les **systèmes full-stack**, l'**IA embarquée** et les **jeux multijoueurs**
+- En ce moment : écrire un navigateur en Rust à partir de zéro (**surf**) et réécrire Project-Eat en Rust ; le reste du temps, back-ends Rust (OmniBoard) et synchro d'état distribuée (mcgit, block-puzzle)
 - **La vie privée est une fonctionnalité, pas un réglage** : si ça peut tourner sur l'appareil, pas besoin du cloud
 - Devise : **livrer d'abord, peaufiner ensuite**. 28 dépôts publics, dont 5 avec démo en ligne
+- Recherche continue : industrialisation de l'IA embarquée dans pdiary (quantification, accélération Metal, architecture privacy-first)
 - Sujets favoris : IA embarquée, ingénierie de la confidentialité, synchro multijoueur, architecture full-stack
-
-## En ce moment
-
-- Développement de **surf** : un navigateur écrit en Rust à partir de zéro
-- Réécriture de **Project-Eat** en **Rust** : correction de rédactions par OCR + LLM
-- Approfondissement des **back-ends Rust** (OmniBoard) et de la **synchro d'état distribuée** (mcgit, block-puzzle)
-- Recherche continue : **industrialiser l'IA embarquée** dans pdiary (quantification, accélération Metal, architecture privacy-first)
 
 <br/>
 
@@ -71,7 +66,7 @@
 
 `Next.js` `Electron` `TypeScript`
 
-> Pas un simple site perso : site public Next.js + console d'admin Electron + service de rendu en arrière-plan : un système de contenu complet.
+> Site public Next.js + console d'admin Electron + service de rendu en arrière-plan : trois composants qui forment un système de contenu.
 
 ### [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | Tableau full-stack TypeScript + Rust · [live](https://omniboard-app.vercel.app)
 
@@ -142,14 +137,14 @@
 ## Algorithmique (LeetCode)
 
 - **1 599 problèmes résolus** : Easy **812** | Medium **669** | Hard **118**, classement mondial **#6 543**
+- Langages utilisés (par nombre de problèmes) : `C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
-**Thèmes couverts** (par nombre de problèmes)
+<details>
+<summary>Thèmes couverts (par nombre de problèmes)</summary>
 
 `Tableaux ×786` `Chaînes ×406` `Tables de hachage ×311` `Maths ×280` `Tri ×186` `Programmation dynamique ×145` `DFS ×135` `Simulation ×134` `Glouton ×128` `Matrices ×121` `Arbres ×117` `Deux pointeurs ×116` `Arbres binaires ×105` `Manipulation de bits ×99` `Base de données SQL ×94` `BFS ×92`
 
-**Langages utilisés** (par nombre de problèmes)
-
-`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
+</details>
 
 <div align="center">
 

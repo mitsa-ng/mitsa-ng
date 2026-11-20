@@ -20,16 +20,11 @@
 ## 關於我
 
 - 專注於 **全端系統**、**裝置端 AI** 與 **多人連線遊戲**
+- 現在主力：用 Rust 從零寫瀏覽器（**surf**）、把 Project-Eat 重寫成 Rust；其餘時間深挖 Rust 後端（OmniBoard）與分散式狀態同步（mcgit、block-puzzle）
 - 相信 **隱私是功能，不是設定選項**：能在裝置端跑的，就不上雲
 - 信條：**先出貨，再打磨**。目前 28 個公開 repo，5 個有 live demo
+- 持續研究裝置端 AI 工程化（pdiary）：模型量化、Metal 加速、隱私優先架構
 - 樂聊：裝置端 AI、隱私工程、多人遊戲同步、全端架構
-
-## 目前進行中
-
-- 打造 **surf**：用 Rust 從零寫一個瀏覽器
-- 以 **Rust** 重寫 **Project-Eat**：OCR＋LLM 自動批改英文作文
-- 深挖 **Rust 後端**（OmniBoard）與 **分散式狀態同步**（mcgit、block-puzzle）
-- 持續研究 **裝置端 AI 工程化**（pdiary）：模型量化、Metal 加速、隱私優先架構
 
 <br/>
 
@@ -71,7 +66,7 @@
 
 `Next.js` `Electron` `TypeScript`
 
-> 不只是個人網站：Next.js 公開網站＋Electron 管理後台＋背景渲染服務，一套完整的內容系統。
+> Next.js 公開網站＋Electron 管理後台＋背景渲染服務，三個組件構成一套內容系統。
 
 ### [OmniBoard](https://github.com/mitsa-ng/OmniBoard)｜TypeScript＋Rust 全端看板 · [live](https://omniboard-app.vercel.app)
 
@@ -142,14 +137,14 @@
 ## 演算法戰績（LeetCode）
 
 - 累計解題 **1,599**：Easy **812**｜Medium **669**｜Hard **118**，全站排名 **#6,543**
+- 解題語言（依題數）：`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
-**主題分佈**（依題數）
+<details>
+<summary>主題分佈（依題數）</summary>
 
 `陣列 ×786` `字串 ×406` `雜湊表 ×311` `數學 ×280` `排序 ×186` `動態規劃 ×145` `DFS ×135` `模擬 ×134` `貪心 ×128` `矩陣 ×121` `樹 ×117` `雙指針 ×116` `二元樹 ×105` `位元運算 ×99` `資料庫 SQL ×94` `BFS ×92`
 
-**解題語言**（依題數）
-
-`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
+</details>
 
 <div align="center">
 

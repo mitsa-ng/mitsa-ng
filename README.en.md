@@ -20,16 +20,11 @@
 ## About me
 
 - Focused on **full-stack systems**, **on-device AI** and **multiplayer games**
+- Main focus right now: writing a browser from scratch in Rust (**surf**) and rewriting Project-Eat in Rust; the rest of my time goes to Rust back-ends (OmniBoard) and distributed state sync (mcgit, block-puzzle)
 - I believe **privacy is a feature, not a setting**: if it can run on-device, it shouldn't need the cloud
 - Motto: **ship it, then polish it**. 28 public repos so far, 5 with live demos
+- Ongoing research: on-device AI engineering in pdiary (quantisation, Metal acceleration, privacy-first architecture)
 - Happy to talk about: on-device AI, privacy engineering, multiplayer sync, full-stack architecture
-
-## What I'm up to
-
-- Building **surf**: a browser written from scratch in Rust
-- Rewriting **Project-Eat** in **Rust**: OCR + LLM essay marking
-- Going deeper on **Rust back-ends** (OmniBoard) and **distributed state sync** (mcgit, block-puzzle)
-- Ongoing research: **productionising on-device AI** in pdiary (quantisation, Metal acceleration, privacy-first architecture)
 
 <br/>
 
@@ -71,7 +66,7 @@
 
 `Next.js` `Electron` `TypeScript`
 
-> Not just a personal site: Next.js public site + Electron admin console + background render service: a complete content system.
+> Next.js public site + Electron admin console + background render service: three parts forming one content system.
 
 ### [OmniBoard](https://github.com/mitsa-ng/OmniBoard) | TypeScript + Rust full-stack board · [live](https://omniboard-app.vercel.app)
 
@@ -142,14 +137,14 @@
 ## Algorithm practice (LeetCode)
 
 - **1,599 problems solved**: Easy **812** | Medium **669** | Hard **118**, global ranking **#6,543**
+- Languages used (by problems solved): `C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
 
-**Topics covered** (by problems solved)
+<details>
+<summary>Topics covered (by problems solved)</summary>
 
 `Array ×786` `String ×406` `Hash Table ×311` `Math ×280` `Sorting ×186` `Dynamic Programming ×145` `DFS ×135` `Simulation ×134` `Greedy ×128` `Matrix ×121` `Tree ×117` `Two Pointers ×116` `Binary Tree ×105` `Bit Manipulation ×99` `Database/SQL ×94` `BFS ×92`
 
-**Languages used** (by problems solved)
-
-`C++ ×1,385` `SQL ×105` `Python ×38` `JavaScript ×32` `Pandas ×15` `TypeScript ×8` `Go ×6` `Rust ×4` `Bash ×4`
+</details>
 
 <div align="center">
 
