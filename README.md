@@ -39,3 +39,6 @@ ModSecurity/OWASP CRS tuning, and Debian server hygiene.
 
 - GitHub: you are here
 - [Personal site](https://mitsa.dpdns.org/zh-TW)
+
+**For recruiters**: [Resume (PDF, zh-TW)](./resume.pdf)
+開源基礎架構工程師（虛擬化／備份／資安），在學、可實習或全職面談
