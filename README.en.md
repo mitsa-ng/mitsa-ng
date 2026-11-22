@@ -1,92 +1,47 @@
-<!-- ============================================ -->
-<!--  GitHub Profile README for mitsa-ng (Nati)   -->
-<!--  English version · default: README.md (繁中) -->
-<!-- ============================================ -->
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=210&section=header&text=Nati&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Full-stack%20%C2%B7%20On-device%20AI%20%C2%B7%20Multiplayer%20Games&descSize=16&descAlignY=52" alt="banner" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1200&color=58A6FF&background=0D1117&repeat=false&center=true&vCenter=true&width=650&lines=hi%2C+I%27m+Nati;I+build+full-stack+systems+%26+local-first+AI;TypeScript+%2F+Python+%2F+Rust+%2F+Dart;...and+the+occasional+multiplayer+game" alt="intro" />
-
-<img src="https://komarev.com/ghpvc/?username=mitsa-ng&style=flat-square&color=58a6ff&label=visitors" alt="visitors" />
+# Hi, I'm Nati (`mitsa-ng`)
 
 [繁體中文](./README.md) · **English** · [日本語](./README.ja.md) · [Français](./README.fr.md)
 
-</div>
+Student developer from Taiwan. TypeScript full-stack by day, Rust tinkerer by
+night. Currently going deep on **open-source infrastructure**: virtualization,
+backup mechanics, and WAF rule evaluation. I learn systems by rebuilding their
+guts in small, dependency-free code.
 
-<br/>
+## Infrastructure toolkit
 
-## About me
+| Project | What it does | Stack |
+|---|---|---|
+| [chunk-vault](https://github.com/mitsa-ng/chunk-vault) | Content-defined chunking backup vault: gear-hash CDC, SHA-256 chunk store, verify, GC (Proxmox BS style dedup, from the inside) | Python, stdlib only |
+| [pve-audit](https://github.com/mitsa-ng/pve-audit) | Proxmox VE backup coverage auditor: flags guests no enabled vzdump job protects; real PVE API tokens and `/api2/json` | Python, stdlib only |
+| [crs-check](https://github.com/mitsa-ng/crs-check) | Offline ModSecurity SecRule parser and evaluator: see which OWASP CRS-style rules fire on a request, without a web server | TypeScript, zero deps |
 
-- Focused on **full-stack systems**, **on-device AI** and **multiplayer games**; main focus right now: writing a browser from scratch in Rust (**surf**) and rewriting Project-Eat in Rust
-- **Privacy is a feature, not a setting**: if it can run on-device, it stays on-device (pdiary)
-- Motto: **ship it, then polish it**. 28 public repos, 5 with live demos; **1,599** LeetCode problems solved (#6,543)
+Every repo ships with tests that run without network access.
 
-<br/>
+## Also built: healthcare interoperability toolkit
 
-## Recent contributions
+Three zero-dependency FHIR tools, written while evaluating the medical-standards
+path: [fhir-lens](https://github.com/mitsa-ng/fhir-lens) (R4 validator + client),
+[smart-launch](https://github.com/mitsa-ng/smart-launch) (SMART on FHIR with
+PKCE), [hl7v2-fhir-bridge](https://github.com/mitsa-ng/hl7v2-fhir-bridge)
+(HL7 v2 to R4 converter).
 
-<div align="center">
+## Systems & side quests
 
-<img src="./assets/contributions.svg" alt="Recent contributions" width="720" />
+- **surf**: a browser built from scratch in Rust
+- **nanollm**: minimal C++17 LLM inference runtime, runs Qwen2.5 end to end
+- **pdiary**: privacy-first voice diary, on-device transcription with llama.cpp
+- **mcgit**: Minecraft server world sync with distributed locking
 
-</div>
+## Currently learning
 
-Full list: [PRs by mitsa-ng (excluding own repos)](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+-user%3Amitsa-ng). The card refreshes every six hours via [GitHub Actions](./.github/workflows/contributions.yml).
-
-<br/>
-
-## Featured projects
-
-- **[surf](https://github.com/mitsa-ng/surf)**: a browser built from scratch in Rust `Rust`
-- **[pdiary](https://github.com/mitsa-ng/pdiary)**: privacy-first AI voice diary, transcription to encryption entirely on-device `Flutter` `llama.cpp`
-- **[mcgit](https://github.com/mitsa-ng/mcgit)**: version control for Minecraft server saves `Python` `Postgres`
-- **[OmniBoard](https://github.com/mitsa-ng/OmniBoard)**: TypeScript + Rust full-stack board · [live](https://omniboard-app.vercel.app)
-
-The other 24 repos: [github.com/mitsa-ng?tab=repositories](https://github.com/mitsa-ng/?tab=repositories)
-
-<br/>
-
-## Tech stack
-
-<div align="center">
-
-**languages**
-
-<img src="https://skillicons.dev/icons?i=ts,js,py,cpp,dart,rust,kotlin&theme=dark" alt="languages" />
-
-**on-device AI & security**
-
-<img src="https://img.shields.io/badge/whisper.cpp-4A154B?style=for-the-badge" alt="whisper.cpp" /> <img src="https://img.shields.io/badge/llama.cpp-8A2BE2?style=for-the-badge" alt="llama.cpp" /> <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/AES--256--GCM-DC143C?style=for-the-badge" alt="AES-256-GCM" />
-
-</div>
-
-<br/>
-
-## GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://streak-stats.demolab.com?user=mitsa-ng&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="GitHub streak" />
-
-<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=mitsa-ng&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Contribution graph" />
-
-</div>
-
-<br/>
+Proxmox VE administration, ZFS, backup strategy (3-2-1, pull-mode isolation),
+ModSecurity/OWASP CRS tuning, and Debian server hygiene.
 
 ## Contact
 
-<div align="center">
+- GitHub: you are here
+- [Personal site](https://mitsa.dpdns.org/zh-TW)
 
-Issues and PRs welcome on every repo; open to work opportunities and collaboration, remote-friendly.
-<br/><br/>
-
-[![Email](https://img.shields.io/badge/Email-xingencai060%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:xingencai060@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-mitsa--ng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mitsa-ng)
-[![LeetCode](https://img.shields.io/badge/LeetCode-1,599_solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/VBHZZEqrGX/)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="footer" />
-
-</div>
+**For recruiters**: [Resume (PDF, zh-TW)](./resume.pdf)
+Open-source infrastructure engineer (virtualization / backup / security),
+student, available for internship or full-time interviews
