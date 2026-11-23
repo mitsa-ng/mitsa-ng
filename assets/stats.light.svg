@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="524" viewBox="0 0 840 524" role="img">
+<rect width="100%" height="100%" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<style>text{font-family:-apple-system, 'Helvetica Neue', 'PingFang TC', 'Hiragino Sans', Arial, sans-serif;} .b{font-weight:600;}</style>
+<text x="26" y="44" font-size="18" fill="#0969da" class="b">Issue / PR 統計</text>
+<text x="814" y="44" font-size="11" fill="#656d76" text-anchor="end">最後更新 剛剛</text>
+<line x1="26" y1="58" x2="814" y2="58" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="84" font-size="11" fill="#656d76">專案</text>
+<text x="594" y="84" font-size="11" fill="#656d76" text-anchor="end">Issues</text>
+<text x="704" y="84" font-size="11" fill="#656d76" text-anchor="end">PRs</text>
+<text x="814" y="84" font-size="11" fill="#656d76" text-anchor="end">已合併</text>
+<line x1="26" y1="100" x2="814" y2="100" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="122" font-size="13" fill="#1f2328" class="b">oadpiz/liff</text>
+<text x="594" y="122" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="122" font-size="13" fill="#1f2328" text-anchor="end">34</text>
+<text x="814" y="122" font-size="13" fill="#8250df" class="b" text-anchor="end">34</text>
+<line x1="26" y1="128" x2="814" y2="128" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="152" font-size="13" fill="#1f2328" class="b">oadpiz/lecake</text>
+<text x="594" y="152" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="152" font-size="13" fill="#1f2328" text-anchor="end">20</text>
+<text x="814" y="152" font-size="13" fill="#8250df" class="b" text-anchor="end">19</text>
+<line x1="26" y1="158" x2="814" y2="158" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="182" font-size="13" fill="#1f2328" class="b">yen-2cats/cutea-backend</text>
+<text x="594" y="182" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="182" font-size="13" fill="#1f2328" text-anchor="end">16</text>
+<text x="814" y="182" font-size="13" fill="#8250df" class="b" text-anchor="end">15</text>
+<line x1="26" y1="188" x2="814" y2="188" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="212" font-size="13" fill="#1f2328" class="b">libracoder/kiri</text>
+<text x="594" y="212" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="212" font-size="13" fill="#1f2328" text-anchor="end">13</text>
+<text x="814" y="212" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<line x1="26" y1="218" x2="814" y2="218" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="242" font-size="13" fill="#1f2328" class="b">google-research/harness2</text>
+<text x="594" y="242" font-size="13" fill="#656d76" text-anchor="end">1</text>
+<text x="704" y="242" font-size="13" fill="#1f2328" text-anchor="end">10</text>
+<text x="814" y="242" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<line x1="26" y1="248" x2="814" y2="248" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="272" font-size="13" fill="#1f2328" class="b">yen-2cats/cutea-frontend</text>
+<text x="594" y="272" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="272" font-size="13" fill="#1f2328" text-anchor="end">10</text>
+<text x="814" y="272" font-size="13" fill="#8250df" class="b" text-anchor="end">10</text>
+<line x1="26" y1="278" x2="814" y2="278" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="302" font-size="13" fill="#1f2328" class="b">KytyPS5</text>
+<text x="594" y="302" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="302" font-size="13" fill="#1f2328" text-anchor="end">9</text>
+<text x="814" y="302" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<line x1="26" y1="308" x2="814" y2="308" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="332" font-size="13" fill="#1f2328" class="b">oadpiz/b300-sell-panel</text>
+<text x="594" y="332" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="332" font-size="13" fill="#1f2328" text-anchor="end">9</text>
+<text x="814" y="332" font-size="13" fill="#8250df" class="b" text-anchor="end">7</text>
+<line x1="26" y1="338" x2="814" y2="338" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="362" font-size="13" fill="#1f2328" class="b">optyne/ai-build</text>
+<text x="594" y="362" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="362" font-size="13" fill="#1f2328" text-anchor="end">5</text>
+<text x="814" y="362" font-size="13" fill="#8250df" class="b" text-anchor="end">5</text>
+<line x1="26" y1="368" x2="814" y2="368" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="392" font-size="13" fill="#1f2328" class="b">patchzyy/Wiicompiled</text>
+<text x="594" y="392" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="392" font-size="13" fill="#1f2328" text-anchor="end">5</text>
+<text x="814" y="392" font-size="13" fill="#8250df" class="b" text-anchor="end">4</text>
+<line x1="26" y1="398" x2="814" y2="398" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="422" font-size="13" fill="#1f2328" class="b">soirihiroka/shrimply</text>
+<text x="594" y="422" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="422" font-size="13" fill="#1f2328" text-anchor="end">5</text>
+<text x="814" y="422" font-size="13" fill="#8250df" class="b" text-anchor="end">3</text>
+<line x1="26" y1="428" x2="814" y2="428" stroke="#d8dee4" stroke-width="1"/>
+<text x="26" y="452" font-size="13" fill="#1f2328" class="b">vllm-project/vllm</text>
+<text x="594" y="452" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<text x="704" y="452" font-size="13" fill="#1f2328" text-anchor="end">5</text>
+<text x="814" y="452" font-size="13" fill="#656d76" text-anchor="end">0</text>
+<line x1="26" y1="458" x2="814" y2="458" stroke="#d8dee4" stroke-width="1"/>
+<line x1="26" y1="468" x2="814" y2="468" stroke="#d0d7de" stroke-width="1"/>
+<text x="26" y="488" font-size="13.5" fill="#0969da" class="b">總計</text>
+<text x="594" y="488" font-size="13.5" fill="#1f2328" class="b" text-anchor="end">10</text>
+<text x="704" y="488" font-size="13.5" fill="#1f2328" class="b" text-anchor="end">165</text>
+<text x="814" y="488" font-size="13.5" fill="#1f2328" class="b" text-anchor="end">114</text>
+<text x="814" y="508" font-size="11" fill="#656d76" text-anchor="end">另外 16 個專案</text>
+</svg>

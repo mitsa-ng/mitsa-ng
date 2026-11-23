@@ -43,6 +43,13 @@ CRS 調校、Debian 伺服器維運。
 
 [查看全部 →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
 
+## Issue / PR 統計
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats.svg">
+  <img width="92%" src="./assets/stats.light.svg" alt="各專案 Issue / PR 統計">
+</picture>
+
 ## 聯絡
 
 - GitHub：你正在這裡

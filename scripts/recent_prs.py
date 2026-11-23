@@ -131,7 +131,7 @@ def rel_time(dt: datetime, lang: str) -> str:
 
 
 def fetch_prs(user: str, count: int) -> list:
-    q = f"is:pr author:{user} archived:false"
+    q = f"is:pr author:{user}"
     url = (
         "https://api.github.com/search/issues?"
         + urllib.parse.urlencode({"q": q, "sort": "updated", "order": "desc", "per_page": count})
@@ -230,26 +230,37 @@ def render(prs: list, lang: str) -> str:
     return "\n".join(parts) + "\n"
 
 
+def out_path(outdir: str, basename: str, lang: str, theme: str) -> str:
+    """assets/recent-prs.svg (zh dark) · .en/.ja/.fr · .light suffix."""
+    suffix = "" if lang == "zh" else f".{lang}"
+    if theme == "light":
+        suffix += ".light"
+    return os.path.join(outdir, f"{basename}{suffix}.svg")
+
+
 def main() -> None:
+    global C
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", required=True)
-    ap.add_argument("--lang", choices=sorted(L10N), default="en")
+    ap.add_argument("--langs", nargs="+", choices=sorted(L10N), default=["zh", "en", "ja", "fr"])
+    ap.add_argument("--themes", nargs="+", choices=sorted(THEMES), default=["dark", "light"])
     ap.add_argument("--title", help="override the panel title")
-    ap.add_argument("--theme", choices=sorted(THEMES), default="dark")
     ap.add_argument("--max", type=int, default=6)
-    ap.add_argument("--out", required=True)
+    ap.add_argument("--outdir", default="assets")
+    ap.add_argument("--basename", default="recent-prs")
     args = ap.parse_args()
 
-    global C
-    C = THEMES[args.theme]
-    prs = fetch_prs(args.user, args.max)
-    if args.title:
-        L10N[args.lang]["title"] = args.title
-    svg = render(prs, args.lang)
-    os.makedirs(os.path.dirname(args.out), exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as f:
-        f.write(svg)
-    print(f"wrote {args.out} ({args.theme}, {len(prs)} PRs)")
+    prs = fetch_prs(args.user, args.max)  # fetch once, render every variant
+    for lang in args.langs:
+        if args.title:
+            L10N[lang]["title"] = args.title
+        for theme in args.themes:
+            C = THEMES[theme]
+            path = out_path(args.outdir, args.basename, lang, theme)
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(render(prs, lang))
+            print(f"wrote {path} ({theme}, {len(prs)} PRs)")
 
 
 if __name__ == "__main__":

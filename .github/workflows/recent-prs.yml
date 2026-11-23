@@ -1,4 +1,4 @@
-name: update recent PR panel
+name: update profile panels
 
 on:
   schedule:
@@ -8,13 +8,14 @@ on:
     branches: [main]
     paths:
       - "scripts/recent_prs.py"
+      - "scripts/issue_pr_stats.py"
       - ".github/workflows/recent-prs.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: recent-prs
+  group: profile-panels
   cancel-in-progress: true
 
 jobs:
@@ -24,27 +25,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate panels (4 languages x dark/light)
+      # each script fetches once, then renders all languages and themes
+      # (the Search API allows 30 authenticated calls/min)
+      - name: Generate panels
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
           user="${{ github.repository_owner }}"
-          for lang in zh en ja fr; do
-            suffix=""
-            [ "$lang" != "zh" ] && suffix=".$lang"
-            python3 scripts/recent_prs.py --user "$user" --lang "$lang" --theme dark  --out "assets/recent-prs${suffix}.svg"
-            python3 scripts/recent_prs.py --user "$user" --lang "$lang" --theme light --out "assets/recent-prs${suffix}.light.svg"
-          done
+          python3 scripts/recent_prs.py     --user "$user"
+          python3 scripts/issue_pr_stats.py --user "$user"
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/recent-prs*.svg
+          git add assets/*.svg
           if git diff --cached --quiet; then
             echo "no changes"
             exit 0
           fi
-          git commit -m "auto: refresh recent PR panel"
+          git commit -m "auto: refresh profile panels"
           git push

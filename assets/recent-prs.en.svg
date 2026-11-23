@@ -4,45 +4,45 @@
 <text x="26" y="44" font-size="18" fill="#58a6ff" class="b">Recent Pull Requests</text>
 <text x="814" y="44" font-size="11" fill="#8b949e" text-anchor="end">updated now</text>
 <line x1="26" y1="58" x2="814" y2="58" stroke="#21262d" stroke-width="1"/>
-<circle cx="33" cy="78" r="4.5" fill="#3fb950"/>
-<text x="45" y="82" font-size="11" fill="#3fb950">Open</text>
-<text x="83.31" y="82" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="142.455" y="82" font-size="11.5" fill="#8b949e">#2526</text>
-<text x="814" y="82" font-size="11" fill="#8b949e" text-anchor="end">3 m ago</text>
-<text x="26" y="102" font-size="13.5" fill="#c9d1d9">launcher: copy the full launch command from the game's context menu (#2522)</text>
+<circle cx="33" cy="78" r="4.5" fill="#f85149"/>
+<text x="45" y="82" font-size="11" fill="#f85149">Closed</text>
+<text x="92.66" y="82" font-size="12.5" fill="#58a6ff" class="b">flyteorg/flyte-sdk</text>
+<text x="207.5875" y="82" font-size="11.5" fill="#8b949e">#1869</text>
+<text x="814" y="82" font-size="11" fill="#8b949e" text-anchor="end">4 h ago</text>
+<text x="26" y="102" font-size="13.5" fill="#c9d1d9">fix: sort directory names before hashing an image source directory</text>
 <line x1="26" x2="814" y1="120" y2="120" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="125" r="4.5" fill="#3fb950"/>
 <text x="45" y="129" font-size="11" fill="#3fb950">Open</text>
 <text x="83.31" y="129" font-size="12.5" fill="#58a6ff" class="b">vllm-project/vllm</text>
-<text x="191.215" y="129" font-size="11.5" fill="#8b949e">#69265</text>
-<text x="814" y="129" font-size="11" fill="#8b949e" text-anchor="end">11 h ago</text>
-<text x="26" y="149" font-size="13.5" fill="#c9d1d9">[Bugfix][Parser] Keep Ripple markers mentioned in prose as literal text</text>
+<text x="191.215" y="129" font-size="11.5" fill="#8b949e">#69203</text>
+<text x="814" y="129" font-size="11" fill="#8b949e" text-anchor="end">4 h ago</text>
+<text x="26" y="149" font-size="13.5" fill="#c9d1d9">[Bugfix] Support NamedTuple parameters in direct_register_custom_op</text>
 <line x1="26" x2="814" y1="167" y2="167" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="172" r="4.5" fill="#3fb950"/>
 <text x="45" y="176" font-size="11" fill="#3fb950">Open</text>
-<text x="83.31" y="176" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="142.455" y="176" font-size="11.5" fill="#8b949e">#2515</text>
-<text x="814" y="176" font-size="11" fill="#8b949e" text-anchor="end">19 h ago</text>
-<text x="26" y="196" font-size="13.5" fill="#c9d1d9">vulkan: accept devices without shaderResourceMinLod (#2434)</text>
+<text x="83.31" y="176" font-size="12.5" fill="#58a6ff" class="b">apache/datafusion</text>
+<text x="202.34500000000003" y="176" font-size="11.5" fill="#8b949e">#27666</text>
+<text x="814" y="176" font-size="11" fill="#8b949e" text-anchor="end">6 h ago</text>
+<text x="26" y="196" font-size="13.5" fill="#c9d1d9">fix: keep FilterExec disjunction estimates above a known branch</text>
 <line x1="26" x2="814" y1="214" y2="214" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="219" r="4.5" fill="#3fb950"/>
 <text x="45" y="223" font-size="11" fill="#3fb950">Open</text>
-<text x="83.31" y="223" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="142.455" y="223" font-size="11.5" fill="#8b949e">#2514</text>
-<text x="814" y="223" font-size="11" fill="#8b949e" text-anchor="end">19 h ago</text>
-<text x="26" y="243" font-size="13.5" fill="#c9d1d9">launcher: run the emulator from a per-user data directory on macOS (#2491)</text>
+<text x="83.31" y="223" font-size="12.5" fill="#58a6ff" class="b">kubernetes</text>
+<text x="158.7525" y="223" font-size="11.5" fill="#8b949e">#144405</text>
+<text x="814" y="223" font-size="11" fill="#8b949e" text-anchor="end">6 h ago</text>
+<text x="26" y="243" font-size="13.5" fill="#c9d1d9">externaljwt: document required ECDSA signature encoding for Sign</text>
 <line x1="26" x2="814" y1="261" y2="261" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="266" r="4.5" fill="#3fb950"/>
 <text x="45" y="270" font-size="11" fill="#3fb950">Open</text>
 <text x="83.31" y="270" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="142.455" y="270" font-size="11.5" fill="#8b949e">#2513</text>
-<text x="814" y="270" font-size="11" fill="#8b949e" text-anchor="end">19 h ago</text>
-<text x="26" y="290" font-size="13.5" fill="#c9d1d9">launcher: keep settings in the user scope on macOS (#2489)</text>
+<text x="142.455" y="270" font-size="11.5" fill="#8b949e">#2526</text>
+<text x="814" y="270" font-size="11" fill="#8b949e" text-anchor="end">6 h ago</text>
+<text x="26" y="290" font-size="13.5" fill="#c9d1d9">launcher: copy the full launch command from the game's context menu (#2522)</text>
 <line x1="26" x2="814" y1="308" y2="308" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="313" r="4.5" fill="#3fb950"/>
 <text x="45" y="317" font-size="11" fill="#3fb950">Open</text>
-<text x="83.31" y="317" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="142.455" y="317" font-size="11.5" fill="#8b949e">#2510</text>
-<text x="814" y="317" font-size="11" fill="#8b949e" text-anchor="end">19 h ago</text>
-<text x="26" y="337" font-size="13.5" fill="#c9d1d9">kernel: reject unsupported event flag wait_mode bits (#2495)</text>
+<text x="83.31" y="317" font-size="12.5" fill="#58a6ff" class="b">vllm-project/vllm</text>
+<text x="191.215" y="317" font-size="11.5" fill="#8b949e">#69265</text>
+<text x="814" y="317" font-size="11" fill="#8b949e" text-anchor="end">18 h ago</text>
+<text x="26" y="337" font-size="13.5" fill="#c9d1d9">[Bugfix][Parser] Keep Ripple markers mentioned in prose as literal text</text>
 </svg>

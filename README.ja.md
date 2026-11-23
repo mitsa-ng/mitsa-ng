@@ -45,6 +45,13 @@ ModSecurity/OWASP CRS チューニング、Debian サーバ運用。
 
 [すべて見る →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
 
+## Issue / PR 統計
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats.ja.svg">
+  <img width="92%" src="./assets/stats.ja.light.svg" alt="プロジェクト別 Issue / PR 統計">
+</picture>
+
 ## 連絡
 
 - GitHub：今いるところ

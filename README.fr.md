@@ -47,6 +47,13 @@ pull), réglage ModSecurity/OWASP CRS, et hygiène des serveurs Debian.
 
 [Voir tout →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
 
+## Stats Issues & PR
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats.fr.svg">
+  <img width="92%" src="./assets/stats.fr.light.svg" alt="Issues, PR et PR fusionnées par projet">
+</picture>
+
 ## Contact
 
 - GitHub : vous y êtes

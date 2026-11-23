@@ -46,6 +46,13 @@ ModSecurity/OWASP CRS tuning, and Debian server hygiene.
 
 [See all →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
 
+## Issue & PR stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats.en.svg">
+  <img width="92%" src="./assets/stats.en.light.svg" alt="Issues, PRs and merged PRs per project">
+</picture>
+
 ## Contact
 
 - GitHub: you are here
