@@ -1,0 +1,50 @@
+name: update recent PR panel
+
+on:
+  schedule:
+    - cron: "16,46 * * * *" # every 30 min, offset from busy :00/:30
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/recent_prs.py"
+      - ".github/workflows/recent-prs.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recent-prs
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate panels (4 languages x dark/light)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          user="${{ github.repository_owner }}"
+          for lang in zh en ja fr; do
+            suffix=""
+            [ "$lang" != "zh" ] && suffix=".$lang"
+            python3 scripts/recent_prs.py --user "$user" --lang "$lang" --theme dark  --out "assets/recent-prs${suffix}.svg"
+            python3 scripts/recent_prs.py --user "$user" --lang "$lang" --theme light --out "assets/recent-prs${suffix}.light.svg"
+          done
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/recent-prs*.svg
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "auto: refresh recent PR panel"
+          git push

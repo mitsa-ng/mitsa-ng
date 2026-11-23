@@ -38,6 +38,15 @@ FHIR avec PKCE), [hl7v2-fhir-bridge](https://github.com/mitsa-ng/hl7v2-fhir-brid
 Administration Proxmox VE, ZFS, stratégies de sauvegarde (3-2-1, isolation
 pull), réglage ModSecurity/OWASP CRS, et hygiène des serveurs Debian.
 
+## Pull requests récentes
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/recent-prs.fr.svg">
+  <img width="92%" src="./assets/recent-prs.fr.light.svg" alt="Pull requests récentes">
+</picture>
+
+[Voir tout →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
+
 ## Contact
 
 - GitHub : vous y êtes

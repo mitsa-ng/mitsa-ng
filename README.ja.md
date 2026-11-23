@@ -36,6 +36,15 @@
 Proxmox VE 管理、ZFS、バックアップ戦略（3-2-1、プル型分離）、
 ModSecurity/OWASP CRS チューニング、Debian サーバ運用。
 
+## 最近のプルリクエスト
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/recent-prs.ja.svg">
+  <img width="92%" src="./assets/recent-prs.ja.light.svg" alt="最近のプルリクエスト">
+</picture>
+
+[すべて見る →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
+
 ## 連絡
 
 - GitHub：今いるところ

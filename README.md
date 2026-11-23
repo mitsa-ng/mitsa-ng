@@ -34,6 +34,15 @@
 Proxmox VE 管理、ZFS、備份策略（3-2-1、pull-mode 隔離）、ModSecurity/OWASP
 CRS 調校、Debian 伺服器維運。
 
+## 最近 PR
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/recent-prs.svg">
+  <img width="92%" src="./assets/recent-prs.light.svg" alt="最近 PR 動態">
+</picture>
+
+[查看全部 →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
+
 ## 聯絡
 
 - GitHub：你正在這裡

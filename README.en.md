@@ -37,6 +37,15 @@ PKCE), [hl7v2-fhir-bridge](https://github.com/mitsa-ng/hl7v2-fhir-bridge)
 Proxmox VE administration, ZFS, backup strategy (3-2-1, pull-mode isolation),
 ModSecurity/OWASP CRS tuning, and Debian server hygiene.
 
+## Recent Pull Requests
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/recent-prs.en.svg">
+  <img width="92%" src="./assets/recent-prs.en.light.svg" alt="Recent pull requests">
+</picture>
+
+[See all →](https://github.com/pulls?q=is%3Apr+author%3Amitsa-ng+sort%3Aupdated-desc)
+
 ## Contact
 
 - GitHub: you are here
