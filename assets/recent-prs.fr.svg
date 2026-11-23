@@ -4,45 +4,45 @@
 <text x="26" y="44" font-size="18" fill="#58a6ff" class="b">Pull requests récentes</text>
 <text x="814" y="44" font-size="11" fill="#8b949e" text-anchor="end">maj now</text>
 <line x1="26" y1="58" x2="814" y2="58" stroke="#21262d" stroke-width="1"/>
-<circle cx="33" cy="78" r="4.5" fill="#f85149"/>
-<text x="45" y="82" font-size="11" fill="#f85149">Fermée</text>
-<text x="94.97" y="82" font-size="12.5" fill="#58a6ff" class="b">flyteorg/flyte-sdk</text>
-<text x="209.8975" y="82" font-size="11.5" fill="#8b949e">#1869</text>
-<text x="814" y="82" font-size="11" fill="#8b949e" text-anchor="end">il y a 4 h</text>
-<text x="26" y="102" font-size="13.5" fill="#c9d1d9">fix: sort directory names before hashing an image source directory</text>
+<circle cx="33" cy="78" r="4.5" fill="#3fb950"/>
+<text x="45" y="82" font-size="11" fill="#3fb950">Ouverte</text>
+<text x="98.49000000000001" y="82" font-size="12.5" fill="#58a6ff" class="b">apache/kafka</text>
+<text x="187.97750000000002" y="82" font-size="11.5" fill="#8b949e">#24346</text>
+<text x="814" y="82" font-size="11" fill="#8b949e" text-anchor="end">il y a 48 min</text>
+<text x="26" y="102" font-size="13.5" fill="#c9d1d9">KAFKA-21615: Handle corrupted paused tasks in the state updater</text>
 <line x1="26" x2="814" y1="120" y2="120" stroke="#21262d" stroke-width="1"/>
-<circle cx="33" cy="125" r="4.5" fill="#3fb950"/>
-<text x="45" y="129" font-size="11" fill="#3fb950">Ouverte</text>
-<text x="98.49000000000001" y="129" font-size="12.5" fill="#58a6ff" class="b">vllm-project/vllm</text>
-<text x="206.395" y="129" font-size="11.5" fill="#8b949e">#69203</text>
-<text x="814" y="129" font-size="11" fill="#8b949e" text-anchor="end">il y a 4 h</text>
-<text x="26" y="149" font-size="13.5" fill="#c9d1d9">[Bugfix] Support NamedTuple parameters in direct_register_custom_op</text>
+<circle cx="33" cy="125" r="4.5" fill="#f85149"/>
+<text x="45" y="129" font-size="11" fill="#f85149">Fermée</text>
+<text x="94.97" y="129" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
+<text x="154.115" y="129" font-size="11.5" fill="#8b949e">#2510</text>
+<text x="814" y="129" font-size="11" fill="#8b949e" text-anchor="end">il y a 1 h</text>
+<text x="26" y="149" font-size="13.5" fill="#c9d1d9">kernel: reject unsupported event flag wait_mode bits (#2495)</text>
 <line x1="26" x2="814" y1="167" y2="167" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="172" r="4.5" fill="#3fb950"/>
 <text x="45" y="176" font-size="11" fill="#3fb950">Ouverte</text>
-<text x="98.49000000000001" y="176" font-size="12.5" fill="#58a6ff" class="b">apache/datafusion</text>
-<text x="217.52500000000003" y="176" font-size="11.5" fill="#8b949e">#27666</text>
-<text x="814" y="176" font-size="11" fill="#8b949e" text-anchor="end">il y a 6 h</text>
-<text x="26" y="196" font-size="13.5" fill="#c9d1d9">fix: keep FilterExec disjunction estimates above a known branch</text>
+<text x="98.49000000000001" y="176" font-size="12.5" fill="#58a6ff" class="b">apache/ozone</text>
+<text x="190.76000000000002" y="176" font-size="11.5" fill="#8b949e">#12134</text>
+<text x="814" y="176" font-size="11" fill="#8b949e" text-anchor="end">il y a 3 h</text>
+<text x="26" y="196" font-size="13.5" fill="#c9d1d9">HDDS-17701. Honor ScmRatisServerConfig.logAppenderWaitTimeMin in RatisUtil</text>
 <line x1="26" x2="814" y1="214" y2="214" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="219" r="4.5" fill="#3fb950"/>
 <text x="45" y="223" font-size="11" fill="#3fb950">Ouverte</text>
-<text x="98.49000000000001" y="223" font-size="12.5" fill="#58a6ff" class="b">kubernetes</text>
-<text x="173.9325" y="223" font-size="11.5" fill="#8b949e">#144405</text>
-<text x="814" y="223" font-size="11" fill="#8b949e" text-anchor="end">il y a 6 h</text>
-<text x="26" y="243" font-size="13.5" fill="#c9d1d9">externaljwt: document required ECDSA signature encoding for Sign</text>
+<text x="98.49000000000001" y="223" font-size="12.5" fill="#58a6ff" class="b">flyteorg/flytekit</text>
+<text x="203.6125" y="223" font-size="11.5" fill="#8b949e">#3490</text>
+<text x="814" y="223" font-size="11" fill="#8b949e" text-anchor="end">il y a 3 h</text>
+<text x="26" y="243" font-size="13.5" fill="#c9d1d9">fix: ImageSpec.is_container returns False when no execution is in progress</text>
 <line x1="26" x2="814" y1="261" y2="261" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="266" r="4.5" fill="#3fb950"/>
 <text x="45" y="270" font-size="11" fill="#3fb950">Ouverte</text>
-<text x="98.49000000000001" y="270" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="157.63500000000002" y="270" font-size="11.5" fill="#8b949e">#2526</text>
-<text x="814" y="270" font-size="11" fill="#8b949e" text-anchor="end">il y a 6 h</text>
-<text x="26" y="290" font-size="13.5" fill="#c9d1d9">launcher: copy the full launch command from the game's context menu (#2522)</text>
+<text x="98.49000000000001" y="270" font-size="12.5" fill="#58a6ff" class="b">apache/datafusion</text>
+<text x="217.52500000000003" y="270" font-size="11.5" fill="#8b949e">#27672</text>
+<text x="814" y="270" font-size="11" fill="#8b949e" text-anchor="end">il y a 3 h</text>
+<text x="26" y="290" font-size="13.5" fill="#c9d1d9">fix: respect parquet.pruning = false in file statistics pruning</text>
 <line x1="26" x2="814" y1="308" y2="308" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="313" r="4.5" fill="#3fb950"/>
 <text x="45" y="317" font-size="11" fill="#3fb950">Ouverte</text>
 <text x="98.49000000000001" y="317" font-size="12.5" fill="#58a6ff" class="b">vllm-project/vllm</text>
-<text x="206.395" y="317" font-size="11.5" fill="#8b949e">#69265</text>
-<text x="814" y="317" font-size="11" fill="#8b949e" text-anchor="end">il y a 18 h</text>
-<text x="26" y="337" font-size="13.5" fill="#c9d1d9">[Bugfix][Parser] Keep Ripple markers mentioned in prose as literal text</text>
+<text x="206.395" y="317" font-size="11.5" fill="#8b949e">#69402</text>
+<text x="814" y="317" font-size="11" fill="#8b949e" text-anchor="end">il y a 4 h</text>
+<text x="26" y="337" font-size="13.5" fill="#c9d1d9">[Feature][Frontend] Support /v1/responses in vllm run-batch</text>
 </svg>
