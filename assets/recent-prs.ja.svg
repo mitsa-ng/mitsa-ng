@@ -6,43 +6,43 @@
 <line x1="26" y1="58" x2="814" y2="58" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="78" r="4.5" fill="#3fb950"/>
 <text x="45" y="82" font-size="11" fill="#3fb950">オープン</text>
-<text x="103.0" y="82" font-size="12.5" fill="#58a6ff" class="b">apache/kafka</text>
-<text x="192.4875" y="82" font-size="11.5" fill="#8b949e">#24346</text>
-<text x="814" y="82" font-size="11" fill="#8b949e" text-anchor="end">48分前</text>
-<text x="26" y="102" font-size="13.5" fill="#c9d1d9">KAFKA-21615: Handle corrupted paused tasks in the state updater</text>
+<text x="103.0" y="82" font-size="12.5" fill="#58a6ff" class="b">apache/ozone</text>
+<text x="195.27" y="82" font-size="11.5" fill="#8b949e">#12141</text>
+<text x="814" y="82" font-size="11" fill="#8b949e" text-anchor="end">17分前</text>
+<text x="26" y="102" font-size="13.5" fill="#c9d1d9">HDDS-17907. Assert no duplicated keys for the classes using @Config</text>
 <line x1="26" x2="814" y1="120" y2="120" stroke="#21262d" stroke-width="1"/>
-<circle cx="33" cy="125" r="4.5" fill="#f85149"/>
-<text x="45" y="129" font-size="11" fill="#f85149">クローズ</text>
-<text x="103.0" y="129" font-size="12.5" fill="#58a6ff" class="b">KytyPS5</text>
-<text x="162.145" y="129" font-size="11.5" fill="#8b949e">#2510</text>
-<text x="814" y="129" font-size="11" fill="#8b949e" text-anchor="end">1時間前</text>
-<text x="26" y="149" font-size="13.5" fill="#c9d1d9">kernel: reject unsupported event flag wait_mode bits (#2495)</text>
+<circle cx="33" cy="125" r="4.5" fill="#3fb950"/>
+<text x="45" y="129" font-size="11" fill="#3fb950">オープン</text>
+<text x="103.0" y="129" font-size="12.5" fill="#58a6ff" class="b">apache/datafusion</text>
+<text x="222.03500000000003" y="129" font-size="11.5" fill="#8b949e">#27698</text>
+<text x="814" y="129" font-size="11" fill="#8b949e" text-anchor="end">22分前</text>
+<text x="26" y="149" font-size="13.5" fill="#c9d1d9">fix: preserve ordering through single-partition CoalescePartitionsExec</text>
 <line x1="26" x2="814" y1="167" y2="167" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="172" r="4.5" fill="#3fb950"/>
 <text x="45" y="176" font-size="11" fill="#3fb950">オープン</text>
-<text x="103.0" y="176" font-size="12.5" fill="#58a6ff" class="b">apache/ozone</text>
-<text x="195.27" y="176" font-size="11.5" fill="#8b949e">#12134</text>
-<text x="814" y="176" font-size="11" fill="#8b949e" text-anchor="end">3時間前</text>
-<text x="26" y="196" font-size="13.5" fill="#c9d1d9">HDDS-17701. Honor ScmRatisServerConfig.logAppenderWaitTimeMin in RatisUtil</text>
+<text x="103.0" y="176" font-size="12.5" fill="#58a6ff" class="b">ray-project/ray</text>
+<text x="207.99" y="176" font-size="11.5" fill="#8b949e">#68487</text>
+<text x="814" y="176" font-size="11" fill="#8b949e" text-anchor="end">43分前</text>
+<text x="26" y="196" font-size="13.5" fill="#c9d1d9">[serve] Fix KeyError when stop_tasks() runs while an async metrics task is suspended</text>
 <line x1="26" x2="814" y1="214" y2="214" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="219" r="4.5" fill="#3fb950"/>
 <text x="45" y="223" font-size="11" fill="#3fb950">オープン</text>
-<text x="103.0" y="223" font-size="12.5" fill="#58a6ff" class="b">flyteorg/flytekit</text>
-<text x="208.1225" y="223" font-size="11.5" fill="#8b949e">#3490</text>
-<text x="814" y="223" font-size="11" fill="#8b949e" text-anchor="end">3時間前</text>
-<text x="26" y="243" font-size="13.5" fill="#c9d1d9">fix: ImageSpec.is_container returns False when no execution is in progress</text>
+<text x="103.0" y="223" font-size="12.5" fill="#58a6ff" class="b">opensource4you/astraea</text>
+<text x="263.905" y="223" font-size="11.5" fill="#8b949e">#1868</text>
+<text x="814" y="223" font-size="11" fill="#8b949e" text-anchor="end">9時間前</text>
+<text x="26" y="243" font-size="13.5" fill="#c9d1d9">[COMMON] metric sensor 容錯、MBean property 順序、receiver 閒置阻斷</text>
 <line x1="26" x2="814" y1="261" y2="261" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="266" r="4.5" fill="#3fb950"/>
 <text x="45" y="270" font-size="11" fill="#3fb950">オープン</text>
-<text x="103.0" y="270" font-size="12.5" fill="#58a6ff" class="b">apache/datafusion</text>
-<text x="222.03500000000003" y="270" font-size="11.5" fill="#8b949e">#27672</text>
-<text x="814" y="270" font-size="11" fill="#8b949e" text-anchor="end">3時間前</text>
-<text x="26" y="290" font-size="13.5" fill="#c9d1d9">fix: respect parquet.pruning = false in file statistics pruning</text>
+<text x="103.0" y="270" font-size="12.5" fill="#58a6ff" class="b">opensource4you/astraea</text>
+<text x="263.905" y="270" font-size="11.5" fill="#8b949e">#1867</text>
+<text x="814" y="270" font-size="11" fill="#8b949e" text-anchor="end">9時間前</text>
+<text x="26" y="290" font-size="13.5" fill="#c9d1d9">[WEB] 驗證 record key/value、測 response serde、吞吐量未達標時警告</text>
 <line x1="26" x2="814" y1="308" y2="308" stroke="#21262d" stroke-width="1"/>
 <circle cx="33" cy="313" r="4.5" fill="#3fb950"/>
 <text x="45" y="317" font-size="11" fill="#3fb950">オープン</text>
-<text x="103.0" y="317" font-size="12.5" fill="#58a6ff" class="b">vllm-project/vllm</text>
-<text x="210.905" y="317" font-size="11.5" fill="#8b949e">#69402</text>
-<text x="814" y="317" font-size="11" fill="#8b949e" text-anchor="end">4時間前</text>
-<text x="26" y="337" font-size="13.5" fill="#c9d1d9">[Feature][Frontend] Support /v1/responses in vllm run-batch</text>
+<text x="103.0" y="317" font-size="12.5" fill="#58a6ff" class="b">opensource4you/astraea</text>
+<text x="263.905" y="317" font-size="11.5" fill="#8b949e">#1866</text>
+<text x="814" y="317" font-size="11" fill="#8b949e" text-anchor="end">9時間前</text>
+<text x="26" y="337" font-size="13.5" fill="#c9d1d9">[COMMON] 補述 cost 範圍、讓 DataSize 無損 round-trip、回報 offline partitions</text>
 </svg>
