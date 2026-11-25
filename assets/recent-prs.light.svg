@@ -7,42 +7,42 @@
 <circle cx="33" cy="78" r="4.5" fill="#1a7f37"/>
 <text x="45" y="82" font-size="11" fill="#1a7f37">開放中</text>
 <text x="92.0" y="82" font-size="12.5" fill="#0969da" class="b">apache/ozone</text>
-<text x="184.27" y="82" font-size="11.5" fill="#656d76">#12143</text>
-<text x="814" y="82" font-size="11" fill="#656d76" text-anchor="end">10小時前</text>
-<text x="26" y="102" font-size="13.5" fill="#1f2328">HDDS-17902. Support x-amz-if-match-last-modified-time in S3 DeleteObject</text>
+<text x="184.27" y="82" font-size="11.5" fill="#656d76">#12141</text>
+<text x="814" y="82" font-size="11" fill="#656d76" text-anchor="end">29分鐘前</text>
+<text x="26" y="102" font-size="13.5" fill="#1f2328">HDDS-17907. Assert no duplicated keys for the classes using @Config</text>
 <line x1="26" x2="814" y1="120" y2="120" stroke="#d8dee4" stroke-width="1"/>
 <circle cx="33" cy="125" r="4.5" fill="#1a7f37"/>
 <text x="45" y="129" font-size="11" fill="#1a7f37">開放中</text>
 <text x="92.0" y="129" font-size="12.5" fill="#0969da" class="b">apache/ozone</text>
 <text x="184.27" y="129" font-size="11.5" fill="#656d76">#12134</text>
-<text x="814" y="129" font-size="11" fill="#656d76" text-anchor="end">16小時前</text>
+<text x="814" y="129" font-size="11" fill="#656d76" text-anchor="end">32分鐘前</text>
 <text x="26" y="149" font-size="13.5" fill="#1f2328">HDDS-17701. Honor ScmRatisServerConfig.logAppenderWaitTimeMin in RatisUtil</text>
 <line x1="26" x2="814" y1="167" y2="167" stroke="#d8dee4" stroke-width="1"/>
 <circle cx="33" cy="172" r="4.5" fill="#1a7f37"/>
 <text x="45" y="176" font-size="11" fill="#1a7f37">開放中</text>
-<text x="92.0" y="176" font-size="12.5" fill="#0969da" class="b">apache/ozone</text>
-<text x="184.27" y="176" font-size="11.5" fill="#656d76">#12141</text>
-<text x="814" y="176" font-size="11" fill="#656d76" text-anchor="end">22小時前</text>
-<text x="26" y="196" font-size="13.5" fill="#1f2328">HDDS-17907. Assert no duplicated keys for the classes using @Config</text>
+<text x="92.0" y="176" font-size="12.5" fill="#0969da" class="b">flyteorg/flytekit</text>
+<text x="197.1225" y="176" font-size="11.5" fill="#656d76">#3490</text>
+<text x="814" y="176" font-size="11" fill="#656d76" text-anchor="end">33分鐘前</text>
+<text x="26" y="196" font-size="13.5" fill="#1f2328">fix: ImageSpec.is_container returns False when no execution is in progress</text>
 <line x1="26" x2="814" y1="214" y2="214" stroke="#d8dee4" stroke-width="1"/>
 <circle cx="33" cy="219" r="4.5" fill="#1a7f37"/>
 <text x="45" y="223" font-size="11" fill="#1a7f37">開放中</text>
-<text x="92.0" y="223" font-size="12.5" fill="#0969da" class="b">apache/datafusion</text>
-<text x="211.03500000000003" y="223" font-size="11.5" fill="#656d76">#27700</text>
-<text x="814" y="223" font-size="11" fill="#656d76" text-anchor="end">1天前</text>
-<text x="26" y="243" font-size="13.5" fill="#1f2328">fix: compare nested dictionary null encodings as one value in ScalarV…</text>
+<text x="92.0" y="223" font-size="12.5" fill="#0969da" class="b">vllm-project/vllm</text>
+<text x="199.905" y="223" font-size="11.5" fill="#656d76">#69402</text>
+<text x="814" y="223" font-size="11" fill="#656d76" text-anchor="end">33分鐘前</text>
+<text x="26" y="243" font-size="13.5" fill="#1f2328">[Feature][Frontend] Support /v1/responses in vllm run-batch</text>
 <line x1="26" x2="814" y1="261" y2="261" stroke="#d8dee4" stroke-width="1"/>
 <circle cx="33" cy="266" r="4.5" fill="#1a7f37"/>
 <text x="45" y="270" font-size="11" fill="#1a7f37">開放中</text>
-<text x="92.0" y="270" font-size="12.5" fill="#0969da" class="b">apache/kafka</text>
-<text x="181.4875" y="270" font-size="11.5" fill="#656d76">#24346</text>
-<text x="814" y="270" font-size="11" fill="#656d76" text-anchor="end">1天前</text>
-<text x="26" y="290" font-size="13.5" fill="#1f2328">KAFKA-21615: Handle corrupted paused tasks in the state updater</text>
+<text x="92.0" y="270" font-size="12.5" fill="#0969da" class="b">vllm-project/vllm</text>
+<text x="199.905" y="270" font-size="11.5" fill="#656d76">#69202</text>
+<text x="814" y="270" font-size="11" fill="#656d76" text-anchor="end">33分鐘前</text>
+<text x="26" y="290" font-size="13.5" fill="#1f2328">[Bugfix][Frontend] Mark background /v1/responses as in_progress while generating</text>
 <line x1="26" x2="814" y1="308" y2="308" stroke="#d8dee4" stroke-width="1"/>
 <circle cx="33" cy="313" r="4.5" fill="#1a7f37"/>
 <text x="45" y="317" font-size="11" fill="#1a7f37">開放中</text>
-<text x="92.0" y="317" font-size="12.5" fill="#0969da" class="b">apache/datafusion</text>
-<text x="211.03500000000003" y="317" font-size="11.5" fill="#656d76">#27698</text>
-<text x="814" y="317" font-size="11" fill="#656d76" text-anchor="end">1天前</text>
-<text x="26" y="337" font-size="13.5" fill="#1f2328">fix: preserve ordering through single-partition CoalescePartitionsExec</text>
+<text x="92.0" y="317" font-size="12.5" fill="#0969da" class="b">vllm-project/vllm</text>
+<text x="199.905" y="317" font-size="11.5" fill="#656d76">#69203</text>
+<text x="814" y="317" font-size="11" fill="#656d76" text-anchor="end">33分鐘前</text>
+<text x="26" y="337" font-size="13.5" fill="#1f2328">[Bugfix] Support NamedTuple parameters in direct_register_custom_op</text>
 </svg>
